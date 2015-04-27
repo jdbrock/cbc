@@ -9,7 +9,9 @@ using Xamarin.Forms;
 namespace CBC
 {
 	public partial class BeerPage : ContentPage
-	{
+    {
+        public BeerPageViewModel ViewModel { get { return (BeerPageViewModel)BindingContext; } set { BindingContext = value; } }
+
 		public BeerPage()
 		{
 			InitializeComponent();
@@ -40,6 +42,13 @@ namespace CBC
                 return;
 
             listView.SelectedItem = null;
+        }
+
+        private async void OnRefreshing(object sender, EventArgs e)
+        {
+            var listView = (ListView)sender;
+
+            ViewModel.Refresh(() => Device.BeginInvokeOnMainThread(() => listView.EndRefresh()));
         }
 	}
 }

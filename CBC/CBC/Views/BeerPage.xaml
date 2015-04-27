@@ -4,7 +4,7 @@
              xmlns:controls="clr-namespace:Xamarin.Forms.Labs.Controls;assembly=XLabs.Forms"
              x:Class="CBC.BeerPage">
 
-    <ListView ItemsSource="{Binding Beers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected">
+    <ListView ItemsSource="{Binding Beers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <!--<TextCell Text="{Binding BreweryAndBeerName}" />-->

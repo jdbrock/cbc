@@ -3,9 +3,11 @@ using PropertyChanged;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -22,6 +24,8 @@ namespace CBC
 
         private const String CBC_MAIN_DATA_PATH = "cbc.json";
         private const String CBC_METADATA_PATH = "metadata.json";
+
+        private const String CBC_MAIN_DATA_URI = "http://cbc.brock.in/cbc-2015.js";
 
         // ===========================================================================
         // = Public Properties
@@ -45,16 +49,79 @@ namespace CBC
         {
             Instance = this;
 
-            using (var cbcDataFile = File.OpenText(CBC_MAIN_DATA_PATH))
-            {
-                var cbcData = JsonConvert.DeserializeObject<CbcData>(cbcDataFile.ReadToEnd());
-                
-                YellowViewModel = new BeerPageViewModel(cbcData.Beers.Where(X => X.Session == CbcSession.Yellow));
-                BlueViewModel   = new BeerPageViewModel(cbcData.Beers.Where(X => X.Session == CbcSession.Blue));
-                RedViewModel    = new BeerPageViewModel(cbcData.Beers.Where(X => X.Session == CbcSession.Red));
-                GreenViewModel  = new BeerPageViewModel(cbcData.Beers.Where(X => X.Session == CbcSession.Green));
+            YellowViewModel = new BeerPageViewModel(this);
+            BlueViewModel   = new BeerPageViewModel(this);
+            GreenViewModel  = new BeerPageViewModel(this);
+            RedViewModel    = new BeerPageViewModel(this);
 
-                LoadMetaData(cbcData);
+            LoadMainData();
+        }
+
+        // ===========================================================================
+        // = Public Methods
+        // ===========================================================================
+
+        public void Refresh(Action inCallback)
+        {
+            var tmpFileName = Guid.NewGuid().ToString() + ".json";
+            var tmpPath = Path.Combine(Path.GetTempPath(), tmpFileName);
+
+            var client = new WebClient();
+            client.DownloadFileCompleted += (S, E) => OnDownloadCompleted(tmpPath, CBC_MAIN_DATA_PATH, inCallback, E);
+            client.DownloadFileAsync(new Uri(CBC_MAIN_DATA_URI), tmpPath);
+        }
+
+        // ===========================================================================
+        // = Private Methods
+        // ===========================================================================
+        
+        private void OnDownloadCompleted(String inFromPath, String inToPath, Action inCallback, AsyncCompletedEventArgs e)
+        {
+            try
+            {
+                // Failure
+                if (e.Error != null || e.Cancelled)
+                {
+                    if (File.Exists(inFromPath))
+                        File.Delete(inFromPath);
+
+                    inCallback();
+                }
+                // Success
+                else
+                {
+                    File.Copy(inFromPath, inToPath, true);
+                    File.Delete(inFromPath);
+
+                    LoadMainData();
+                    inCallback();
+                }
+            }
+            catch (Exception ex)
+            {
+                inCallback();
+            }
+        }
+
+        private void LoadMainData()
+        {
+            try
+            {
+                using (var cbcDataFile = File.OpenText(CBC_MAIN_DATA_PATH))
+                {
+                    var cbcData = JsonConvert.DeserializeObject<CbcData>(cbcDataFile.ReadToEnd());
+
+                    LoadMetaData(cbcData);
+
+                    YellowViewModel.SetBeers(cbcData.Beers.Where(X => X.Session == CbcSession.Yellow));
+                    BlueViewModel.SetBeers(cbcData.Beers.Where(X => X.Session == CbcSession.Blue));
+                    RedViewModel.SetBeers(cbcData.Beers.Where(X => X.Session == CbcSession.Red));
+                    GreenViewModel.SetBeers(cbcData.Beers.Where(X => X.Session == CbcSession.Green));
+                }
+            }
+            catch
+            {
+                // Just in case we can't load the data (it was corrupted on download).
             }
         }
 
