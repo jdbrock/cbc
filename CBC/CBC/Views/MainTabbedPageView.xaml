@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CBC;assembly=CBC"
+             x:Class="CBC.MainTabbedPageView">
+
+    <TabbedPage.Children>
+
+        <NavigationPage x:Name="YellowNavigationPage" Title="Yellow" Icon="middle_finger-25.png" >
+            <x:Arguments>
+                <local:BeerPage x:Name="YellowBeerPage" BindingContext="{Binding YellowViewModel}" Title="Yellow"  />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage x:Name="BlueNavigationPage" Title="Blue" Icon="two_fingers-25.png">
+            <x:Arguments>
+                <local:BeerPage x:Name="BlueBeerPage" BindingContext="{Binding BlueViewModel}" Title="Blue" />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage x:Name="RedNavigationPage" Title="Red" Icon="three_fingers-25.png">
+            <x:Arguments>
+                <local:BeerPage x:Name="RedBeerPage" BindingContext="{Binding RedViewModel}" Title="Red" />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage x:Name="GreenNavigationPage" Title="Green" Icon="four_fingers-25.png">
+            <x:Arguments>
+                <local:BeerPage x:Name="GreenBeerPage" BindingContext="{Binding GreenViewModel}" Title="Green" />
+            </x:Arguments>
+        </NavigationPage>
+
+    </TabbedPage.Children>
+
+</TabbedPage>
