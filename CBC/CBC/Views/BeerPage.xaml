@@ -4,7 +4,12 @@
              xmlns:controls="clr-namespace:Xamarin.Forms.Labs.Controls;assembly=XLabs.Forms"
              x:Class="CBC.BeerPage">
 
-    <ListView ItemsSource="{Binding Beers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="A-Z" Order="Secondary" Priority="0" Command="{Binding OrderAZCommand}" />
+        <ToolbarItem Name="Fav" Order="Secondary" Priority="0" Command="{Binding OrderFavCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ListView ItemsSource="{Binding Beers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true" GroupDisplayBinding="{Binding StyleName}">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <!--<TextCell Text="{Binding BreweryAndBeerName}" />-->

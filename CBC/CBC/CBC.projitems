@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Beer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BeerMetaData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\BeerSortOrder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CbcData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CbcMetaData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CbcSession.cs" />
@@ -42,7 +43,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)cbc.json" />
+    <Content Include="$(MSBuildThisFileDirectory)cbc.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="$(MSBuildThisFileDirectory)Resources\cancel-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\cancel-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\checkmark-25.png" />

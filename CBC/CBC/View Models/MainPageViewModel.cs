@@ -51,8 +51,9 @@ namespace CBC
 
             YellowViewModel = new BeerPageViewModel(this);
             BlueViewModel   = new BeerPageViewModel(this);
-            GreenViewModel  = new BeerPageViewModel(this);
             RedViewModel    = new BeerPageViewModel(this);
+            GreenViewModel = new BeerPageViewModel(this);
+
 
             CopyInitialData();
             LoadMainData();
@@ -70,6 +71,14 @@ namespace CBC
             var client = new WebClient();
             client.DownloadFileCompleted += (S, E) => OnDownloadCompleted(tmpPath, toPath, inCallback, E);
             client.DownloadFileAsync(new Uri(CBC_MAIN_DATA_URI), tmpPath);
+        }
+
+        public void SetOrder(BeerSortOrder inSortOrder)
+        {
+            YellowViewModel.SetOrder(inSortOrder);
+            BlueViewModel.SetOrder(inSortOrder);
+            RedViewModel.SetOrder(inSortOrder);
+            GreenViewModel.SetOrder(inSortOrder);
         }
 
         // ===========================================================================
