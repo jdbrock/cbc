@@ -20,6 +20,30 @@ namespace CBC
         public Int32 SessionNumber { get; set; }
         public String SessionName { get; set; }
 
+        public Int32? LocationNumber
+        {
+            get
+            {
+                if (!String.IsNullOrWhiteSpace(BreweryName) && Locations.BeerLocationMap.ContainsKey(BreweryName))
+                    return Locations.BeerLocationMap[BreweryName];
+
+                return null;
+            }
+        }
+
+        public String LocationDirection
+        {
+            get
+            {
+                var number = LocationNumber;
+
+                if (number.HasValue && Locations.CompassDirectionMap.ContainsKey(number.Value))
+                    return Locations.CompassDirectionMap[number.Value];
+
+                return null;
+            }
+        }
+
         public String ABVAndStyle { get { return String.Format("{0:0.0}% {1}", ABV, StyleName); } }
 
         public CbcSession Session { get { return (CbcSession)Enum.Parse(typeof(CbcSession), SessionName); } }

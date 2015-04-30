@@ -16,6 +16,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\CbcData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CbcMetaData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\CbcSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Locations.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View Models\BeerPageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View Models\BeerTickPageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View Models\MainPageViewModel.cs" />
@@ -29,8 +30,15 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\MainTabbedPageView.xaml.cs">
       <DependentUpon>MainTabbedPageView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml.cs">
+      <DependentUpon>MapPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MainTabbedPageView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -53,10 +61,13 @@
     <Content Include="$(MSBuildThisFileDirectory)Resources\four_fingers-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\hearts-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\hearts-25@2x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\map.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\middle_finger-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\middle_finger-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25@2x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25@2x.png" />
   </ItemGroup>
