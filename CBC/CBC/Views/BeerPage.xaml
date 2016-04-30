@@ -37,8 +37,8 @@
                         <Label Grid.Row="1" Grid.Column="1" Text="{Binding BeerName}"     LineBreakMode="TailTruncation" FontSize="Small" />
                         <Label Grid.Row="2" Grid.Column="1" Text="{Binding ABVAndStyle}"  LineBreakMode="TailTruncation" FontSize="Micro" Opacity="0.5" />
 
-                        <Label Grid.Row="0" Grid.Column="2" Text="{Binding LocationNumber}" FontSize="Medium" Opacity="0.5" XAlign="End" />
-                        <Label Grid.Row="1" Grid.Column="2" Text="{Binding LocationDirection}" FontSize="Micro" Opacity="0.3" XAlign="End" />
+                        <!--<Label Grid.Row="0" Grid.Column="2" Text="{Binding LocationNumber}" FontSize="Medium" Opacity="0.5" XAlign="End" />
+                        <Label Grid.Row="1" Grid.Column="2" Text="{Binding LocationDirection}" FontSize="Micro" Opacity="0.3" XAlign="End" />-->
                         <!--<Label Grid.Row="2" Grid.Column="2" Text="{Binding DateExpiry,   StringFormat='{0:yyyy-MM-dd}'}" FontSize="Micro" Opacity="0.5" />-->
                     </Grid>
 

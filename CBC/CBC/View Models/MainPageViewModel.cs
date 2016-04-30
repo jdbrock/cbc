@@ -25,7 +25,7 @@ namespace CBC
         private const String CBC_MAIN_DATA_FILENAME = "cbc.json";
         private const String CBC_METADATA_FILENAME = "metadata.json";
 
-        private const String CBC_MAIN_DATA_URI = "http://cbc.brock.in/cbc-2015.js";
+        private const String CBC_MAIN_DATA_URI = "https://cbc2016.blob.core.windows.net/data-prod/beer.json";
 
         // ===========================================================================
         // = Public Properties

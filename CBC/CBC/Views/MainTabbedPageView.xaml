@@ -30,11 +30,11 @@
             </x:Arguments>
         </NavigationPage>
 
-        <NavigationPage x:Name="MapNavigationPage" Title="Map" Icon="treasure_map-25.png">
+        <!--<NavigationPage x:Name="MapNavigationPage" Title="Map" Icon="treasure_map-25.png">
             <x:Arguments>
                 <local:MapPage x:Name="MapPage" Title="Map" />
             </x:Arguments>
-        </NavigationPage>
+        </NavigationPage>-->
 
     </TabbedPage.Children>
 
