@@ -17,6 +17,12 @@ namespace CBC
 			InitializeComponent();
 		}
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+
         private async void OnBeerFavorite(object sender, EventArgs e)
         {
             var item = (BindableObject)sender;

@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Syncfusion.SfRating.XForms.iOS;
 
 namespace CBC.iOS
 {
@@ -24,6 +25,8 @@ namespace CBC.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new CBC.App());
+
+            new SfRatingRenderer();
 
             return base.FinishedLaunching(app, options);
         }

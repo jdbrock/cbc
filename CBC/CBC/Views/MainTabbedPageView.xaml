@@ -6,27 +6,27 @@
 
     <TabbedPage.Children>
 
-        <NavigationPage x:Name="YellowNavigationPage" Title="Yellow" Icon="middle_finger-25.png" >
+        <NavigationPage x:Name="YellowNavigationPage" Title="Yellow" Icon="middle_finger-25.png">
             <x:Arguments>
-                <local:BeerPage x:Name="YellowBeerPage" BindingContext="{Binding YellowViewModel}" Title="Yellow"  />
+                <local:BeerPage x:Name="YellowBeerPage" BindingContext="{Binding YellowViewModel}" Title="Yellow Session"  />
             </x:Arguments>
         </NavigationPage>
 
         <NavigationPage x:Name="BlueNavigationPage" Title="Blue" Icon="two_fingers-25.png">
             <x:Arguments>
-                <local:BeerPage x:Name="BlueBeerPage" BindingContext="{Binding BlueViewModel}" Title="Blue" />
+                <local:BeerPage x:Name="BlueBeerPage" BindingContext="{Binding BlueViewModel}" Title="Blue Session" />
             </x:Arguments>
         </NavigationPage>
 
         <NavigationPage x:Name="RedNavigationPage" Title="Red" Icon="three_fingers-25.png">
             <x:Arguments>
-                <local:BeerPage x:Name="RedBeerPage" BindingContext="{Binding RedViewModel}" Title="Red" />
+                <local:BeerPage x:Name="RedBeerPage" BindingContext="{Binding RedViewModel}" Title="Red Session" />
             </x:Arguments>
         </NavigationPage>
 
         <NavigationPage x:Name="GreenNavigationPage" Title="Green" Icon="four_fingers-25.png">
             <x:Arguments>
-                <local:BeerPage x:Name="GreenBeerPage" BindingContext="{Binding GreenViewModel}" Title="Green" />
+                <local:BeerPage x:Name="GreenBeerPage" BindingContext="{Binding GreenViewModel}" Title="Green Session" />
             </x:Arguments>
         </NavigationPage>
 

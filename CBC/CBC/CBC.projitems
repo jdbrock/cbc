@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\SessionToColorConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Beer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BeerMetaData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\BeerSortOrder.cs" />
