@@ -34,6 +34,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml.cs">
       <DependentUpon>MapPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\BeerViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml">
@@ -56,21 +57,21 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="$(MSBuildThisFileDirectory)Resources\cancel-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\cancel-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\checkmark-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\four_fingers-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\four_fingers-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\hearts-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\hearts-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\map.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\middle_finger-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\middle_finger-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25@2x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25@2x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\cancel-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\four_fingers-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\hearts-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\middle_finger-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BeerTickPage.xaml">

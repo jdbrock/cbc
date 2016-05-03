@@ -12,7 +12,7 @@ namespace CBC
     [ImplementPropertyChanged]
     public class BeerPageViewModel
     {
-        public ObservableCollection<Beer> Beers { get; private set; }
+        public ObservableCollection<BeerViewModel> Beers { get; private set; }
 
         public ICommand OrderAZCommand { get; set; }
         public ICommand OrderFavCommand { get; set; }
@@ -31,21 +31,22 @@ namespace CBC
 
         public void SetOrder(BeerSortOrder inSortOrder)
         {
-            switch (inSortOrder)
-            {
-                case BeerSortOrder.AZ:
-                    Beers = new ObservableCollection<Beer>(Beers
-                        .OrderBy(X => X.BreweryName)
-                        .ThenBy(X => X.BeerName));
-                    break;
+			switch (inSortOrder) {
 
-                case BeerSortOrder.Fav:
-                    Beers = new ObservableCollection<Beer>(Beers
-                        .OrderByDescending(X => X.MetaData.IsFavorited)
-                        .ThenBy(X => X.BreweryName)
-                        .ThenBy(X => X.BeerName));
-                    break;
-            }
+			case BeerSortOrder.AZ:
+				Beers = new ObservableCollection<Beer> (Beers
+                        .OrderBy (X => X.Beer.BreweryName)
+                        .ThenBy (X => X.Beer.BeerName));
+				break;
+
+			case BeerSortOrder.Fav:
+				Beers = new ObservableCollection<BeerViewModel> (Beers
+                        .OrderByDescending (X => X.Beer.MetaData.IsFavorited)
+                        .ThenBy (X => X.Beer.BreweryName)
+                        .ThenBy (X => X.Beer.BeerName))
+					.Select (X => new BeerViewModel (X));
+				break;
+			}
         }
 
         private void OnOrderFav()
