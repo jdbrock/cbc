@@ -90,6 +90,9 @@ namespace CBC
             var fromPath = CBC_MAIN_DATA_FILENAME;
             var toPath = Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME);
 
+            if (File.Exists(fromPath))
+                return;
+
             if (File.Exists(toPath))
                 return;
 
