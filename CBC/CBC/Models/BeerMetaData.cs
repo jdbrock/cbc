@@ -30,6 +30,6 @@ namespace CBC
             }
         }
 
-        public Boolean IsEmpty { get { return !IsTicked && !IsFavorited; } }
+		public Boolean IsEmpty { get { return !IsTicked && !IsFavorited && TickRating == default(Decimal); } }
     }
 }

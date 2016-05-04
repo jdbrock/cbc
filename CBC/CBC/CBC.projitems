@@ -34,7 +34,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml.cs">
       <DependentUpon>MapPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Models\BeerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View Models\BeerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\RatingConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml">
@@ -62,9 +63,6 @@
     <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25.png" />
-    <Content Include="$(MSBuildThisFileDirectory)cbc-disabled.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="$(MSBuildThisFileDirectory)Resources\cancel-25%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\four_fingers-25%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\hearts-25%402x.png" />
@@ -72,6 +70,9 @@
     <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)cbc.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BeerTickPage.xaml">

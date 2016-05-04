@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Syncfusion.SfRating.XForms;
 
 namespace CBC
 {
@@ -37,7 +38,24 @@ namespace CBC
         {
             var beer = (BeerViewModel)e.Item;
 
-            await Navigation.PushAsync(new BeerTickPage(beer.Beer));
+			// Tapped beer already selected? Deselect it and bail.
+			if (beer.IsExpanded)
+			{
+				beer.IsExpanded = false;
+				return;
+			}
+
+			// Deselect other beers.
+			foreach (var otherBeer in ViewModel.Beers)
+			{
+				if (otherBeer.IsExpanded) // Avoid needless INotifyPropertyChanged events.
+					otherBeer.IsExpanded = false;	
+			}
+
+			// Select tapped beer.
+			beer.IsExpanded = true;
+
+            //await Navigation.PushAsync(new BeerTickPage(beer.Beer));
         }
 
         private async void OnBeerSelected(object sender, SelectedItemChangedEventArgs e)
@@ -49,6 +67,11 @@ namespace CBC
 
             listView.SelectedItem = null;
         }
+
+		private async void OnRatingValueChanged(object sender, ValueEventArgs e)
+		{
+			ViewModel.Parent.SaveMetaData ();
+		}
 
         private async void OnRefreshing(object sender, EventArgs e)
         {

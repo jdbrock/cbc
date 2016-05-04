@@ -3,11 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:Xamarin.Forms.Labs.Controls;assembly=XLabs.Forms"
              xmlns:this="clr-namespace:CBC;assembly=CBC"
+             xmlns:sfr="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
              x:Class="CBC.BeerPage" Padding="0,21,0,0">
 
   <ContentPage.Resources>
     <ResourceDictionary>
       <this:SessionToColorConverter x:Key="SessionToColorConverter" />
+      <this:RatingConverter x:Key="RatingConverter" />
     </ResourceDictionary>
   </ContentPage.Resources>
 
@@ -17,21 +19,22 @@
   </ContentPage.ToolbarItems>-->
 
   <StackLayout>
-    <SearchBar />
+    <SearchBar SearchCommand="{Binding SearchCommand}" Text="{Binding SearchText}" />
 
-    <ListView ItemsSource="{Binding Beers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true" GroupDisplayBinding="{Binding StyleName}" SeparatorColor="#eeeeee" SeparatorVisibility="None">
+    <ListView ItemsSource="{Binding FilteredBeers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true" GroupDisplayBinding="{Binding StyleName}" SeparatorColor="#eeeeee" SeparatorVisibility="None">
       <ListView.ItemTemplate>
         <DataTemplate>
           <!--<TextCell Text="{Binding BreweryAndBeerName}" />-->
           <ViewCell>
-            <ViewCell.ContextActions>
+<!--            <ViewCell.ContextActions>
               <MenuItem Clicked="OnBeerFavorite" Text="Favorite" IsDestructive="False" />
-            </ViewCell.ContextActions>
+            </ViewCell.ContextActions>-->
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
               <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="21" />
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="Auto" />
               </Grid.ColumnDefinitions>
 
@@ -48,6 +51,19 @@
                 <Label Text="{Binding Beer.BeerName}"     LineBreakMode="TailTruncation" FontSize="Small" />
                 <Label Text="{Binding Beer.ABVAndStyle}"  LineBreakMode="TailTruncation" FontSize="Micro" Opacity="0.5" />
               </StackLayout>
+
+              <Grid Grid.Column="3" Padding="0,20,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="180" IsVisible="{Binding IsExpanded}">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="Auto" />
+				</Grid.ColumnDefinitions>
+      			<sfr:SfRating Grid.Column="0" Precision="Exact" Value="{Binding Beer.MetaData.TickRating, Mode=TwoWay, Converter={StaticResource RatingConverter}}" ItemSize="24" VerticalOptions="Center" ValueChanged="OnRatingValueChanged" />
+      			<Label Grid.Column="1" Text="{Binding Beer.MetaData.TickRating}" Margin="10,0,10,30" VerticalOptions="Center" />
+              </Grid>
+<!--
+              <Grid Grid.Column="4" Padding="0,10,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="40" IsVisible="{Binding IsExpanded}">
+              	<Button Text="Save" />
+              </Grid>-->
 
               <!--<Label Grid.Row="0" Grid.Column="2" Text="{Binding LocationNumber}" FontSize="Medium" Opacity="0.5" XAlign="End" />
                         <Label Grid.Row="1" Grid.Column="2" Text="{Binding LocationDirection}" FontSize="Micro" Opacity="0.3" XAlign="End" />-->

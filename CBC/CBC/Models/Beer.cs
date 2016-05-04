@@ -9,6 +9,8 @@ namespace CBC
     [ImplementPropertyChanged]
     public class Beer
     {
+		public String SearchHaystack { get { return String.Join (" ", BreweryName ?? "", BeerName ?? "", ABVAndStyle ?? ""); } }
+
         public String Id { get; set; }
         public String BreweryName { get; set; }
         public String BeerName { get; set; }

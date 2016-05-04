@@ -41,6 +41,8 @@ namespace CBC
         public BeerPageViewModel RedViewModel { get; set; }
         public BeerPageViewModel GreenViewModel { get; set; }
 
+		public BeerPageViewModel AllSessionsViewModel { get;set; }
+
         // ===========================================================================
         // = Construction
         // ===========================================================================
@@ -49,11 +51,12 @@ namespace CBC
         {
             Instance = this;
 
+			AllSessionsViewModel = new BeerPageViewModel(this);
+
             YellowViewModel = new BeerPageViewModel(this);
             BlueViewModel   = new BeerPageViewModel(this);
             RedViewModel    = new BeerPageViewModel(this);
             GreenViewModel = new BeerPageViewModel(this);
-
 
             CopyInitialData();
             LoadMainData();
@@ -75,6 +78,8 @@ namespace CBC
 
         public void SetOrder(BeerSortOrder inSortOrder)
         {
+			AllSessionsViewModel.SetOrder (inSortOrder);
+
             YellowViewModel.SetOrder(inSortOrder);
             BlueViewModel.SetOrder(inSortOrder);
             RedViewModel.SetOrder(inSortOrder);
@@ -90,7 +95,7 @@ namespace CBC
             var fromPath = CBC_MAIN_DATA_FILENAME;
             var toPath = Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME);
 
-            if (File.Exists(fromPath))
+            if (!File.Exists(fromPath))
                 return;
 
             if (File.Exists(toPath))
@@ -136,6 +141,8 @@ namespace CBC
                     var cbcData = JsonConvert.DeserializeObject<CbcData>(cbcDataFile.ReadToEnd());
 
                     LoadMetaData(cbcData);
+
+					AllSessionsViewModel.SetBeers(cbcData.Beers);
 
                     YellowViewModel.SetBeers(cbcData.Beers.Where(X => X.Session == CbcSession.Yellow));
                     BlueViewModel.SetBeers(cbcData.Beers.Where(X => X.Session == CbcSession.Blue));

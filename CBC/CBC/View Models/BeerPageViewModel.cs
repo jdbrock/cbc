@@ -13,21 +13,34 @@ namespace CBC
     public class BeerPageViewModel
     {
         public ObservableCollection<BeerViewModel> Beers { get; private set; }
+		public ObservableCollection<BeerViewModel> FilteredBeers { get; private set; }
 
         public ICommand OrderAZCommand { get; set; }
         public ICommand OrderFavCommand { get; set; }
 
-        private MainTabbedPageViewModel _parent;
+		public ICommand SearchCommand { get; set; }
+
+		public String SearchText { get; set; }
+
+		public MainTabbedPageViewModel Parent { get; set; }
 
         public BeerPageViewModel(MainTabbedPageViewModel inParent)
         {
-            _parent = inParent;
+            Parent = inParent;
 
             Beers = new ObservableCollection<BeerViewModel>();
+			FilteredBeers = new ObservableCollection<BeerViewModel>();
 
             OrderAZCommand    = new Command(OnOrderAZ);
             OrderFavCommand   = new Command(OnOrderFav);
+
+			SearchCommand = new Command(OnSearch);
         }
+
+		public void OnSearch()
+		{
+			RefreshFilter ();
+		}
 
         public void SetOrder(BeerSortOrder inSortOrder)
         {
@@ -50,12 +63,12 @@ namespace CBC
 
         private void OnOrderFav()
         {
-            _parent.SetOrder(BeerSortOrder.Fav);
+            Parent.SetOrder(BeerSortOrder.Fav);
         }
 
         private void OnOrderAZ()
         {
-            _parent.SetOrder(BeerSortOrder.AZ);
+            Parent.SetOrder(BeerSortOrder.AZ);
         }
 
         public void SetBeers(IEnumerable<Beer> inBeers)
@@ -64,11 +77,45 @@ namespace CBC
 
             foreach (var beer in inBeers)
 				Beers.Add(new BeerViewModel(beer));
+
+			RefreshFilter ();
         }
+
+		public void RefreshFilter()
+		{
+			FilteredBeers.Clear ();
+
+			foreach (var beer in Beers)
+			{
+				if (String.IsNullOrWhiteSpace (SearchText))
+					FilteredBeers.Add(beer);
+				else
+				{
+					var split = SearchText.Split (new [] { ' ' });
+
+					if (split.All(X => beer.Beer.SearchHaystack.ToLower().Contains(X.ToLower()))) // TODO: Add a Contains extension method that suipports OrdinalIgnoreCase.
+						FilteredBeers.Add(beer);
+				}
+			}
+		}
+
+		public void OnSearchTextChanged()
+		{
+			// Live search disabled.
+			// Only using this so we can clear the search once it's cancelled.
+//			RefreshFilter ();
+
+			if (String.IsNullOrWhiteSpace (SearchText))
+				FilteredBeers = new ObservableCollection<BeerViewModel>(Beers);
+		}
 
         public void Refresh(Action inCallback)
         {
-            _parent.Refresh(inCallback);
+			Parent.Refresh (() =>
+			{
+				RefreshFilter ();
+				inCallback ();
+			});
         }
     }
 }
