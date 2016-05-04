@@ -183,11 +183,11 @@ namespace CBC
             foreach (var viewModel in beerViewModels)
                 foreach (var beer in viewModel.Beers)
                 {
-                    if (beer.MetaData.IsEmpty)
+                    if (beer.Beer.MetaData.IsEmpty)
                         continue;
 
-                    beer.MetaData.BeerId = beer.Id;
-                    metaData.BeerMetaData.Add(beer.MetaData);
+                    beer.Beer.MetaData.BeerId = beer.Beer.Id;
+                    metaData.BeerMetaData.Add(beer.Beer.MetaData);
                 }
 
             var documentsPath = GetDocumentsPath();

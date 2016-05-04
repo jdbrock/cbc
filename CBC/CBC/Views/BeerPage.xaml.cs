@@ -26,18 +26,18 @@ namespace CBC
         private async void OnBeerFavorite(object sender, EventArgs e)
         {
             var item = (BindableObject)sender;
-            var beer = (Beer)item.BindingContext;
+            var beer = (BeerViewModel)item.BindingContext;
 
-            beer.MetaData.IsFavorited = !beer.MetaData.IsFavorited;
+            beer.Beer.MetaData.IsFavorited = !beer.Beer.MetaData.IsFavorited;
 
             MainTabbedPageViewModel.Instance.SaveMetaData();
         }
 
         private async void OnBeerTapped(object sender, ItemTappedEventArgs e)
         {
-            var beer = (Beer)e.Item;
+            var beer = (BeerViewModel)e.Item;
 
-            await Navigation.PushAsync(new BeerTickPage(beer));
+            await Navigation.PushAsync(new BeerTickPage(beer.Beer));
         }
 
         private async void OnBeerSelected(object sender, SelectedItemChangedEventArgs e)

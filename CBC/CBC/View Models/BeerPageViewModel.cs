@@ -23,7 +23,7 @@ namespace CBC
         {
             _parent = inParent;
 
-            Beers = new ObservableCollection<Beer>();
+            Beers = new ObservableCollection<BeerViewModel>();
 
             OrderAZCommand    = new Command(OnOrderAZ);
             OrderFavCommand   = new Command(OnOrderFav);
@@ -34,17 +34,16 @@ namespace CBC
 			switch (inSortOrder) {
 
 			case BeerSortOrder.AZ:
-				Beers = new ObservableCollection<Beer> (Beers
+				Beers = new ObservableCollection<BeerViewModel> (Beers
                         .OrderBy (X => X.Beer.BreweryName)
-                        .ThenBy (X => X.Beer.BeerName));
+					.ThenBy (X => X.Beer.BeerName));
 				break;
 
 			case BeerSortOrder.Fav:
 				Beers = new ObservableCollection<BeerViewModel> (Beers
                         .OrderByDescending (X => X.Beer.MetaData.IsFavorited)
                         .ThenBy (X => X.Beer.BreweryName)
-                        .ThenBy (X => X.Beer.BeerName))
-					.Select (X => new BeerViewModel (X));
+					.ThenBy (X => X.Beer.BeerName));
 				break;
 			}
         }
@@ -64,7 +63,7 @@ namespace CBC
             Beers.Clear();
 
             foreach (var beer in inBeers)
-                Beers.Add(beer);
+				Beers.Add(new BeerViewModel(beer));
         }
 
         public void Refresh(Action inCallback)

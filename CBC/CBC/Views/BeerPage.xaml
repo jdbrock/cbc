@@ -36,7 +36,7 @@
               </Grid.ColumnDefinitions>
 
               <Grid Grid.Column="0" Padding="5,0,0,10">
-                <BoxView BackgroundColor="{Binding SessionNumber, Converter={StaticResource SessionToColorConverter}}" VerticalOptions="FillAndExpand" WidthRequest="16" />
+                <BoxView BackgroundColor="{Binding Beer.SessionNumber, Converter={StaticResource SessionToColorConverter}}" VerticalOptions="FillAndExpand" WidthRequest="16" />
               </Grid>
 
               <!--<StackLayout Grid.Row="0" Grid.Column="1" Padding="12" VerticalOptions="Center">
@@ -44,9 +44,9 @@
             </StackLayout>-->
 
               <StackLayout Orientation="Vertical" Grid.Column="2" Padding="0,0,5,10" HorizontalOptions="StartAndExpand">
-                <Label Text="{Binding BreweryName}"  LineBreakMode="TailTruncation" FontSize="Medium" FontAttributes="Bold" />
-                <Label Text="{Binding BeerName}"     LineBreakMode="TailTruncation" FontSize="Small" />
-                <Label Text="{Binding ABVAndStyle}"  LineBreakMode="TailTruncation" FontSize="Micro" Opacity="0.5" />
+                <Label Text="{Binding Beer.BreweryName}"  LineBreakMode="TailTruncation" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="{Binding Beer.BeerName}"     LineBreakMode="TailTruncation" FontSize="Small" />
+                <Label Text="{Binding Beer.ABVAndStyle}"  LineBreakMode="TailTruncation" FontSize="Micro" Opacity="0.5" />
               </StackLayout>
 
               <!--<Label Grid.Row="0" Grid.Column="2" Text="{Binding LocationNumber}" FontSize="Medium" Opacity="0.5" XAlign="End" />
