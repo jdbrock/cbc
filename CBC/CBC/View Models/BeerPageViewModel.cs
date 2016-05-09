@@ -85,7 +85,12 @@ namespace CBC
 		{
 			FilteredBeers.Clear ();
 
-			foreach (var beer in Beers)
+			var beers = Beers
+				.OrderBy (X => X.Beer.BreweryName)
+				.ThenBy (X => X.Beer.SessionNumber)
+				.ThenBy (X => X.Beer.BeerName);
+
+			foreach (var beer in beers)
 			{
 				if (String.IsNullOrWhiteSpace (SearchText))
 					FilteredBeers.Add(beer);
@@ -96,7 +101,7 @@ namespace CBC
 					if (split.All(X => beer.Beer.SearchHaystack.ToLower().Contains(X.ToLower()))) // TODO: Add a Contains extension method that suipports OrdinalIgnoreCase.
 						FilteredBeers.Add(beer);
 				}
-			}
+			} 
 		}
 
 		public void OnSearchTextChanged()

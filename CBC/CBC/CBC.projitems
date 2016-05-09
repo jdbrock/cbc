@@ -78,7 +78,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Resources\heart-filled-white.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\checkmark-white%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\checkmark-white.png" />
-    <Content Include="$(MSBuildThisFileDirectory)cbc-disabled.json">
+    <Content Include="$(MSBuildThisFileDirectory)cbc-preload-data.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

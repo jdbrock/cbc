@@ -22,8 +22,10 @@ namespace CBC
         // = Private Constants
         // ===========================================================================
 
-        private const String CBC_MAIN_DATA_FILENAME = "cbc.json";
-        private const String CBC_METADATA_FILENAME = "metadata.json";
+
+		private const String CBC_INITIAL_INTERNAL_DATA_FILENAME = "cbc-preload-data.json";
+		private const String CBC_CURRENT_DATA_FILENAME = "cbc-5.0.0-pre-data.json";
+		private const String CBC_CURRENT_METADATA_FILENAME = "cbc-5.0.0-pre-metadata.json";
 
         private const String CBC_MAIN_DATA_URI = "https://cbc2016.blob.core.windows.net/data-prod/beer.json";
 
@@ -68,8 +70,8 @@ namespace CBC
 
         public void Refresh(Action inCallback)
         {
-            var tmpPath = Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME + ".tmp");
-            var toPath = Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME);
+            var tmpPath = Path.Combine(GetDocumentsPath(), CBC_CURRENT_DATA_FILENAME + ".tmp");
+            var toPath = Path.Combine(GetDocumentsPath(), CBC_CURRENT_DATA_FILENAME);
 
             var client = new WebClient();
             client.DownloadFileCompleted += (S, E) => OnDownloadCompleted(tmpPath, toPath, inCallback, E);
@@ -92,8 +94,8 @@ namespace CBC
 
         private void CopyInitialData()
         {
-            var fromPath = CBC_MAIN_DATA_FILENAME;
-            var toPath = Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME);
+            var fromPath = CBC_INITIAL_INTERNAL_DATA_FILENAME;
+            var toPath = Path.Combine(GetDocumentsPath(), CBC_CURRENT_DATA_FILENAME);
 
             if (!File.Exists(fromPath))
                 return;
@@ -134,7 +136,7 @@ namespace CBC
 
         private void LoadMainData()
         {
-			var path = Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME);
+			var path = Path.Combine(GetDocumentsPath(), CBC_CURRENT_DATA_FILENAME);
 
             try
             {
@@ -165,12 +167,12 @@ namespace CBC
         {
             var documentsPath = GetDocumentsPath();
 
-            if (File.Exists(Path.Combine(documentsPath, CBC_METADATA_FILENAME)))
+            if (File.Exists(Path.Combine(documentsPath, CBC_CURRENT_METADATA_FILENAME)))
             {
                 var beersById = inData.Beers
                     .ToDictionary(X => X.Id);
 
-                using (var cbcMetaDataFile = File.OpenText(Path.Combine(documentsPath, CBC_METADATA_FILENAME)))
+                using (var cbcMetaDataFile = File.OpenText(Path.Combine(documentsPath, CBC_CURRENT_METADATA_FILENAME)))
                 {
                     var metadata = JsonConvert.DeserializeObject<CbcMetaData>(cbcMetaDataFile.ReadToEnd());
 
@@ -204,7 +206,7 @@ namespace CBC
 
             var documentsPath = GetDocumentsPath();
 
-            File.WriteAllText(Path.Combine(documentsPath, CBC_METADATA_FILENAME), JsonConvert.SerializeObject(metaData));
+            File.WriteAllText(Path.Combine(documentsPath, CBC_CURRENT_METADATA_FILENAME), JsonConvert.SerializeObject(metaData));
         }
 
         private String GetDocumentsPath()
