@@ -12,6 +12,42 @@
       <this:RatingConverter x:Key="RatingConverter" />
       <this:BooleanFlipConverter x:Key="BooleanFlipConverter" />
       <sfr:SfRatingSettings x:Key="RatingSettings" RatedFill="#f39c12" UnRatedFill="#20000000" RatedStrokeWidth="0" UnRatedStrokeWidth="0" />
+      <this:RatingOpacityConverter x:Key="RatingOpacityConverter" />
+
+      <Style x:Key="FavouriteButtonStyle" TargetType="Button">
+      	<Style.Triggers>
+      		<DataTrigger Binding="{Binding Beer.MetaData.IsFavorited}" Value="false" TargetType="Button">
+      			<DataTrigger.Setters>
+      				<Setter Property="Image" Value="{x:Null}" />
+      			</DataTrigger.Setters>
+      		</DataTrigger>
+      		<DataTrigger Binding="{Binding Beer.MetaData.IsTicked}" Value="false" TargetType="Button">
+      			<DataTrigger.Setters>
+      				<Setter Property="Image" Value="{x:Null}" />
+      			</DataTrigger.Setters>
+      		</DataTrigger>
+      		<DataTrigger Binding="{Binding Beer.MetaData.IsFavorited}" Value="true" TargetType="Button">
+      			<DataTrigger.Setters>
+      				<Setter Property="Image" Value="heart-filled-white.png" />
+      			</DataTrigger.Setters>
+      		</DataTrigger>
+      		<DataTrigger Binding="{Binding Beer.MetaData.IsTicked}" Value="true" TargetType="Button">
+      			<DataTrigger.Setters>
+      				<Setter Property="Image" Value="checkmark-white.png" />
+      			</DataTrigger.Setters>
+      		</DataTrigger>
+      	</Style.Triggers>
+      </Style>
+
+<!--       <Style x:Key="RatingLabelStyle" TargetType="Label">
+      	<Style.Triggers>
+      		<DataTrigger Binding="{Binding Beer.MetaData.TickRating}" Value="0" TargetType="Label">
+      			<DataTrigger.Setters>
+      				<Setter Property="Opacity" Value="0" />
+      			</DataTrigger.Setters>
+      		</DataTrigger>
+      	</Style.Triggers>
+      </Style>-->
     </ResourceDictionary>
   </ContentPage.Resources>
 
@@ -34,18 +70,18 @@
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0" ColumnSpacing="0">
               <Grid.ColumnDefinitions>
 <!--                <ColumnDefinition Width="Auto" />-->
-                <ColumnDefinition Width="45" />
+                <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
               </Grid.ColumnDefinitions>
              
 
-              <Grid Grid.Column="0" Padding="10,5,0,5">
-                <BoxView BackgroundColor="{Binding Beer.SessionNumber, Converter={StaticResource SessionToColorConverter}}" VerticalOptions="FillAndExpand" WidthRequest="16" />
+              <Grid Grid.Column="0" Padding="10,5,0,5" WidthRequest="32">
+                <BoxView BackgroundColor="{Binding Beer.SessionNumber, Converter={StaticResource SessionToColorConverter}}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
 
 <!--                <Image Source="{Binding Beer.MetaData.StatusImageUri}" VerticalOptions="FillAndExpand" HorizontalOptions="Center" WidthRequest="24" IsVisible="{Binding IsExpanded, Converter={StaticResource BooleanFlipConverter}}" />-->
 
-              	<Button Image="{Binding Beer.MetaData.StatusImageUri}" BorderRadius="0" VerticalOptions="FillAndExpand" HorizontalOptions="Start" IsVisible="{Binding IsExpanded, Converter={StaticResource BooleanFlipConverter}}" />
+              	<Button Style="{StaticResource FavouriteButtonStyle}" Clicked="OnBeerFavorite" BorderRadius="0" VerticalOptions="FillAndExpand" HorizontalOptions="Center" WidthRequest="20" />
               </Grid>
 
               <StackLayout Orientation="Vertical" Grid.Column="1" Padding="10,5,5,5" HorizontalOptions="StartAndExpand">
@@ -54,27 +90,19 @@
                 <Label Text="{Binding Beer.ABVAndStyle}"  LineBreakMode="TailTruncation" FontSize="Micro" Opacity="0.5" />
               </StackLayout>
 
-              <StackLayout Orientation="Vertical" Grid.Column="2" Padding="10,5,5,5" WidthRequest="138" IsVisible="{Binding IsExpanded}" VerticalOptions="StartAndExpand">
+<!--              <StackLayout Orientation="Vertical" Grid.Column="2" Padding="10,5,5,5" WidthRequest="138" IsVisible="{Binding IsExpanded}" VerticalOptions="StartAndExpand">-->
 
-<!--              <Grid Grid.Column="2" Padding="10,0,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="190" IsVisible="{Binding IsExpanded}">-->
-<!--				<Grid.ColumnDefinitions>
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="Auto" />
-				</Grid.ColumnDefinitions>-->
-<!--				<Grid.RowDefinitions>
+              <Grid Grid.Column="2" Padding="10,5,5,5" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="138" IsVisible="{Binding IsExpanded}">
+				<Grid.RowDefinitions>
 					<RowDefinition Height="Auto" />
 					<RowDefinition Height="Auto" />
-				</Grid.RowDefinitions>-->
+				</Grid.RowDefinitions>
 
-      			<Label Text="{Binding Beer.MetaData.TickRating, StringFormat='{0:0.00}'}" Margin="0,0,9,0" HorizontalTextAlignment="End" HorizontalOptions="End" Opacity="0.75" FontSize="Small" />
-      			<sfr:SfRating Precision="Exact" Value="{Binding Beer.MetaData.TickRating, Mode=TwoWay, Converter={StaticResource RatingConverter}}" ItemSize="36" ValueChanged="OnRatingValueChanged" RatingSettings="{StaticResource RatingSettings}" />
-<!--              </Grid>-->
-<!--
-              <BoxView Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="Black" Opacity="0.1" IsVisible="{Binding IsTickedNotExpanded}" Margin="0,0,0,10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-	             
-              </BoxView>-->
+	  			<Label Grid.Row="0" Text="{Binding Beer.MetaData.TickRating, StringFormat='{0:0.00}'}" Margin="0,0,9,0" HorizontalTextAlignment="End" HorizontalOptions="End" Opacity="{Binding Beer.MetaData.TickRating, Converter={StaticResource RatingOpacityConverter}}" FontSize="Small" />
+	  			<sfr:SfRating Grid.Row="1" Precision="Exact" Value="{Binding Beer.MetaData.TickRating, Mode=TwoWay, Converter={StaticResource RatingConverter}}" ItemSize="22" ValueChanged="OnRatingValueChanged" RatingSettings="{StaticResource RatingSettings}" />
+              </Grid>
 
-			</StackLayout>
+<!--			</StackLayout>-->
 
 			</Grid>
 

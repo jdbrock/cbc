@@ -29,7 +29,26 @@ namespace CBC
             var item = (BindableObject)sender;
             var beer = (BeerViewModel)item.BindingContext;
 
-            beer.Beer.MetaData.IsFavorited = !beer.Beer.MetaData.IsFavorited;
+//			if (beer.IsExpanded)
+//				return;
+
+			if (!beer.Beer.MetaData.IsFavorited && !beer.Beer.MetaData.IsTicked)
+				beer.Beer.MetaData.IsFavorited = true;
+			else if (beer.Beer.MetaData.IsFavorited && !beer.Beer.MetaData.IsTicked)
+			{
+				beer.Beer.MetaData.IsFavorited = false;
+				beer.Beer.MetaData.IsTicked = true;
+			}
+			else
+			{
+				beer.Beer.MetaData.IsFavorited = false;
+				beer.Beer.MetaData.IsTicked = false;
+			}
+
+//			if (beer.Beer.MetaData.IsTicked)
+//				return;
+
+//            beer.Beer.MetaData.IsFavorited = !beer.Beer.MetaData.IsFavorited;
 
             MainTabbedPageViewModel.Instance.SaveMetaData();
         }
@@ -70,10 +89,10 @@ namespace CBC
 
 		private async void OnRatingValueChanged(object sender, ValueEventArgs e)
 		{
-			SfRating x;
-			SfRatingSettings y;
+			var item = (BindableObject)sender;
+			var beer = (BeerViewModel)item.BindingContext;
 
-
+			beer.Beer.MetaData.IsTicked = e.Value > 0.1d;
 
 			ViewModel.Parent.SaveMetaData ();
 		}

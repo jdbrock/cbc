@@ -37,6 +37,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)View Models\BeerViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\RatingConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\BooleanFlipConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\RatingOpacityConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml">
@@ -47,9 +48,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\heart-filled-white.png" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\heart-filled-white%402x.png" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\checkmark-white%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BeerPage.xaml">
@@ -74,19 +72,20 @@
     <Content Include="$(MSBuildThisFileDirectory)Resources\three_fingers-25%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\treasure_map-25%402x.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\two_fingers-25%402x.png" />
-    <Content Include="$(MSBuildThisFileDirectory)cbc.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="$(MSBuildThisFileDirectory)Resources\thumbs-up-25.png" />
     <Content Include="$(MSBuildThisFileDirectory)Resources\thumbs-up-25%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\heart-filled-white%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\heart-filled-white.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\checkmark-white%402x.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\checkmark-white.png" />
+    <Content Include="$(MSBuildThisFileDirectory)cbc-disabled.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BeerTickPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Resources\checkmark-white.png" />
   </ItemGroup>
 </Project>

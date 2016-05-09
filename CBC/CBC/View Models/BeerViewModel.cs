@@ -22,6 +22,19 @@ namespace CBC
 			}
 		}
 
+//		public String StatusImageUri
+//		{
+//			get
+//			{
+//				if (Beer.MetaData.IsTicked)
+//					return "checkmark-white.png";
+//				else if (Beer.MetaData.IsFavorited)
+//					return "heart-filled-white.png";
+//				else
+//					return "";
+//			}
+//		}
+
 		public Boolean IsTickedNotExpanded { get { return Beer.MetaData.IsTicked && !IsExpanded; } }
 
 		public Beer Beer { get; }

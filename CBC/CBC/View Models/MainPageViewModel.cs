@@ -98,7 +98,7 @@ namespace CBC
             if (!File.Exists(fromPath))
                 return;
 
-            if (File.Exists(toPath))
+			if (File.Exists(toPath))
                 return;
 
             File.Copy(fromPath, toPath);
@@ -134,9 +134,11 @@ namespace CBC
 
         private void LoadMainData()
         {
+			var path = Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME);
+
             try
             {
-                using (var cbcDataFile = File.OpenText(Path.Combine(GetDocumentsPath(), CBC_MAIN_DATA_FILENAME)))
+				using (var cbcDataFile = File.OpenText(path))
                 {
                     var cbcData = JsonConvert.DeserializeObject<CbcData>(cbcDataFile.ReadToEnd());
 
@@ -153,6 +155,9 @@ namespace CBC
             catch
             {
                 // Just in case we can't load the data (it was corrupted on download).
+				File.Delete(path);
+				CopyInitialData ();
+				LoadMainData (); // Will cause a loop if the packaged data is broken.
             }
         }
 
