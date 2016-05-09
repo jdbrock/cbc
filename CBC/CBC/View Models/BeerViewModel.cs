@@ -22,6 +22,8 @@ namespace CBC
 			}
 		}
 
+		public Boolean IsTickedNotExpanded { get { return Beer.MetaData.IsTicked && !IsExpanded; } }
+
 		public Beer Beer { get; }
 
 		public BeerViewModel (Beer beer)

@@ -6,7 +6,7 @@
 
     <TabbedPage.Children>
 
-        <NavigationPage x:Name="AllSessionsNavigationPage" Title="All">
+        <NavigationPage x:Name="AllSessionsNavigationPage" Title="All" Icon="thumbs-up-25.png">
             <x:Arguments>
                 <local:BeerPage x:Name="AllSessionsBeerPage" BindingContext="{Binding AllSessionsViewModel}" Title="All Sessions"  />
             </x:Arguments>

@@ -10,7 +10,7 @@ namespace CBC
     {
         public String BeerId { get; set; }
 
-        public Boolean IsTicked { get; set; }
+		public Boolean IsTicked { get { return TickRating > 0; } }
         public DateTime TickDate { get; set; }
         public Decimal TickRating { get; set; }
         public String TickComments { get; set; }
@@ -21,12 +21,12 @@ namespace CBC
         {
             get
             {
-                if (IsTicked)
-                    return "checkmark-25.png";
-                else if (IsFavorited)
-                    return "hearts-25.png";
-                else
-                    return "cancel-25.png";
+				if (IsTicked)
+					return "checkmark-25.png";
+				else if (IsFavorited)
+					return "hearts-25.png";
+				else
+					return "";
             }
         }
 

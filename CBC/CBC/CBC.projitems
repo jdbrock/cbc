@@ -36,6 +36,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)View Models\BeerViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\RatingConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\BooleanFlipConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MapPage.xaml">
@@ -73,6 +74,8 @@
     <Content Include="$(MSBuildThisFileDirectory)cbc.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\thumbs-up-25.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\thumbs-up-25%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BeerTickPage.xaml">

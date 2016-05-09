@@ -31,7 +31,7 @@ namespace CBC
 
         private async void OnSaveButtonClicked(object sender, EventArgs e)
         {
-            ViewModel.Beer.MetaData.IsTicked     = true;
+//            ViewModel.Beer.MetaData.IsTicked     = true;
             ViewModel.Beer.MetaData.TickComments = ViewModel.TickComments;
             ViewModel.Beer.MetaData.TickRating   = ViewModel.TickRating;
             ViewModel.Beer.MetaData.TickDate     = DateTime.UtcNow;

@@ -10,6 +10,7 @@
     <ResourceDictionary>
       <this:SessionToColorConverter x:Key="SessionToColorConverter" />
       <this:RatingConverter x:Key="RatingConverter" />
+      <this:BooleanFlipConverter x:Key="BooleanFlipConverter" />
     </ResourceDictionary>
   </ContentPage.Resources>
 
@@ -26,56 +27,48 @@
         <DataTemplate>
           <!--<TextCell Text="{Binding BreweryAndBeerName}" />-->
           <ViewCell>
-<!--            <ViewCell.ContextActions>
+<!--        <ViewCell.ContextActions>
               <MenuItem Clicked="OnBeerFavorite" Text="Favorite" IsDestructive="False" />
             </ViewCell.ContextActions>-->
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0" ColumnSpacing="0">
               <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="21" />
-                <ColumnDefinition Width="Auto" />
+<!--                <ColumnDefinition Width="Auto" />-->
+                <ColumnDefinition Width="40" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
               </Grid.ColumnDefinitions>
+             
 
               <Grid Grid.Column="0" Padding="5,0,0,10">
                 <BoxView BackgroundColor="{Binding Beer.SessionNumber, Converter={StaticResource SessionToColorConverter}}" VerticalOptions="FillAndExpand" WidthRequest="16" />
+
+                <Image Source="{Binding Beer.MetaData.StatusImageUri}" VerticalOptions="FillAndExpand" HorizontalOptions="Center" WidthRequest="24" IsVisible="{Binding IsExpanded, Converter={StaticResource BooleanFlipConverter}}" />
+
+              	<Button Image="hearts-25.png" BorderRadius="0" VerticalOptions="FillAndExpand" HorizontalOptions="Center" WidthRequest="24" IsVisible="{Binding IsExpanded}" />
               </Grid>
 
-              <!--<StackLayout Grid.Row="0" Grid.Column="1" Padding="12" VerticalOptions="Center">
-              <Image Source="{Binding MetaData.StatusImageUri}" />
-            </StackLayout>-->
-
-              <StackLayout Orientation="Vertical" Grid.Column="2" Padding="0,0,5,10" HorizontalOptions="StartAndExpand">
+              <StackLayout Orientation="Vertical" Grid.Column="1" Padding="5,0,5,10" HorizontalOptions="StartAndExpand">
                 <Label Text="{Binding Beer.BreweryName}"  LineBreakMode="TailTruncation" FontSize="Medium" FontAttributes="Bold" />
                 <Label Text="{Binding Beer.BeerName}"     LineBreakMode="TailTruncation" FontSize="Small" />
                 <Label Text="{Binding Beer.ABVAndStyle}"  LineBreakMode="TailTruncation" FontSize="Micro" Opacity="0.5" />
               </StackLayout>
 
-              <Grid Grid.Column="3" Padding="0,20,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="180" IsVisible="{Binding IsExpanded}">
+              <Grid Grid.Column="2" Padding="10,20,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="190" IsVisible="{Binding IsExpanded}">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="*" />
 					<ColumnDefinition Width="Auto" />
 				</Grid.ColumnDefinitions>
+
       			<sfr:SfRating Grid.Column="0" Precision="Exact" Value="{Binding Beer.MetaData.TickRating, Mode=TwoWay, Converter={StaticResource RatingConverter}}" ItemSize="24" VerticalOptions="Center" ValueChanged="OnRatingValueChanged" />
-      			<Label Grid.Column="1" Text="{Binding Beer.MetaData.TickRating}" Margin="10,0,10,30" VerticalOptions="Center" />
+      			<Label Grid.Column="1" Text="{Binding Beer.MetaData.TickRating}" Margin="15,0,10,25" VerticalOptions="Center" HorizontalTextAlignment="Start" />
               </Grid>
 <!--
-              <Grid Grid.Column="4" Padding="0,10,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="40" IsVisible="{Binding IsExpanded}">
-              	<Button Text="Save" />
-              </Grid>-->
+              <BoxView Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="Black" Opacity="0.1" IsVisible="{Binding IsTickedNotExpanded}" Margin="0,0,0,10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+	             
+              </BoxView>-->
 
-              <!--<Label Grid.Row="0" Grid.Column="2" Text="{Binding LocationNumber}" FontSize="Medium" Opacity="0.5" XAlign="End" />
-                        <Label Grid.Row="1" Grid.Column="2" Text="{Binding LocationDirection}" FontSize="Micro" Opacity="0.3" XAlign="End" />-->
-              <!--<Label Grid.Row="2" Grid.Column="2" Text="{Binding DateExpiry,   StringFormat='{0:yyyy-MM-dd}'}" FontSize="Micro" Opacity="0.5" />-->
-            </Grid>
+			</Grid>
 
-            <!--<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
-                      <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
-                        <Label Text="{Binding .}" YAlign="Center" FontSize="Medium" />
-                        <Label Text="hint: trigger a context action" YAlign="Center" FontSize="Small" />
-                      </StackLayout>
-                    </StackLayout>-->
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>
