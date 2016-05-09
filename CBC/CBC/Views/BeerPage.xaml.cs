@@ -70,6 +70,11 @@ namespace CBC
 
 		private async void OnRatingValueChanged(object sender, ValueEventArgs e)
 		{
+			SfRating x;
+			SfRatingSettings y;
+
+
+
 			ViewModel.Parent.SaveMetaData ();
 		}
 

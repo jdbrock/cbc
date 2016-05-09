@@ -11,6 +11,7 @@
       <this:SessionToColorConverter x:Key="SessionToColorConverter" />
       <this:RatingConverter x:Key="RatingConverter" />
       <this:BooleanFlipConverter x:Key="BooleanFlipConverter" />
+      <sfr:SfRatingSettings x:Key="RatingSettings" RatedFill="#f39c12" UnRatedFill="#20000000" RatedStrokeWidth="0" UnRatedStrokeWidth="0" />
     </ResourceDictionary>
   </ContentPage.Resources>
 
@@ -33,39 +34,47 @@
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0" ColumnSpacing="0">
               <Grid.ColumnDefinitions>
 <!--                <ColumnDefinition Width="Auto" />-->
-                <ColumnDefinition Width="40" />
+                <ColumnDefinition Width="45" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
               </Grid.ColumnDefinitions>
              
 
-              <Grid Grid.Column="0" Padding="5,0,0,10">
+              <Grid Grid.Column="0" Padding="10,5,0,5">
                 <BoxView BackgroundColor="{Binding Beer.SessionNumber, Converter={StaticResource SessionToColorConverter}}" VerticalOptions="FillAndExpand" WidthRequest="16" />
 
-                <Image Source="{Binding Beer.MetaData.StatusImageUri}" VerticalOptions="FillAndExpand" HorizontalOptions="Center" WidthRequest="24" IsVisible="{Binding IsExpanded, Converter={StaticResource BooleanFlipConverter}}" />
+<!--                <Image Source="{Binding Beer.MetaData.StatusImageUri}" VerticalOptions="FillAndExpand" HorizontalOptions="Center" WidthRequest="24" IsVisible="{Binding IsExpanded, Converter={StaticResource BooleanFlipConverter}}" />-->
 
-              	<Button Image="hearts-25.png" BorderRadius="0" VerticalOptions="FillAndExpand" HorizontalOptions="Center" WidthRequest="24" IsVisible="{Binding IsExpanded}" />
+              	<Button Image="{Binding Beer.MetaData.StatusImageUri}" BorderRadius="0" VerticalOptions="FillAndExpand" HorizontalOptions="Start" IsVisible="{Binding IsExpanded, Converter={StaticResource BooleanFlipConverter}}" />
               </Grid>
 
-              <StackLayout Orientation="Vertical" Grid.Column="1" Padding="5,0,5,10" HorizontalOptions="StartAndExpand">
+              <StackLayout Orientation="Vertical" Grid.Column="1" Padding="10,5,5,5" HorizontalOptions="StartAndExpand">
                 <Label Text="{Binding Beer.BreweryName}"  LineBreakMode="TailTruncation" FontSize="Medium" FontAttributes="Bold" />
                 <Label Text="{Binding Beer.BeerName}"     LineBreakMode="TailTruncation" FontSize="Small" />
                 <Label Text="{Binding Beer.ABVAndStyle}"  LineBreakMode="TailTruncation" FontSize="Micro" Opacity="0.5" />
               </StackLayout>
 
-              <Grid Grid.Column="2" Padding="10,20,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="190" IsVisible="{Binding IsExpanded}">
-				<Grid.ColumnDefinitions>
+              <StackLayout Orientation="Vertical" Grid.Column="2" Padding="10,5,5,5" WidthRequest="138" IsVisible="{Binding IsExpanded}" VerticalOptions="StartAndExpand">
+
+<!--              <Grid Grid.Column="2" Padding="10,0,0,0" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="190" IsVisible="{Binding IsExpanded}">-->
+<!--				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="*" />
 					<ColumnDefinition Width="Auto" />
-				</Grid.ColumnDefinitions>
+				</Grid.ColumnDefinitions>-->
+<!--				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>-->
 
-      			<sfr:SfRating Grid.Column="0" Precision="Exact" Value="{Binding Beer.MetaData.TickRating, Mode=TwoWay, Converter={StaticResource RatingConverter}}" ItemSize="24" VerticalOptions="Center" ValueChanged="OnRatingValueChanged" />
-      			<Label Grid.Column="1" Text="{Binding Beer.MetaData.TickRating}" Margin="15,0,10,25" VerticalOptions="Center" HorizontalTextAlignment="Start" />
-              </Grid>
+      			<Label Text="{Binding Beer.MetaData.TickRating, StringFormat='{0:0.00}'}" Margin="0,0,9,0" HorizontalTextAlignment="End" HorizontalOptions="End" Opacity="0.75" FontSize="Small" />
+      			<sfr:SfRating Precision="Exact" Value="{Binding Beer.MetaData.TickRating, Mode=TwoWay, Converter={StaticResource RatingConverter}}" ItemSize="36" ValueChanged="OnRatingValueChanged" RatingSettings="{StaticResource RatingSettings}" />
+<!--              </Grid>-->
 <!--
               <BoxView Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="Black" Opacity="0.1" IsVisible="{Binding IsTickedNotExpanded}" Margin="0,0,0,10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 	             
               </BoxView>-->
+
+			</StackLayout>
 
 			</Grid>
 

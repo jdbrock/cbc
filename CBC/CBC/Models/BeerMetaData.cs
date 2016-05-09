@@ -22,9 +22,9 @@ namespace CBC
             get
             {
 				if (IsTicked)
-					return "checkmark-25.png";
+					return "checkmark-white.png";
 				else if (IsFavorited)
-					return "hearts-25.png";
+					return "heart-filled-white.png";
 				else
 					return "";
             }

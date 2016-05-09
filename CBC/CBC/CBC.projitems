@@ -47,6 +47,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\heart-filled-white.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\heart-filled-white%402x.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\checkmark-white%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BeerPage.xaml">
@@ -82,5 +85,8 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\checkmark-white.png" />
   </ItemGroup>
 </Project>
