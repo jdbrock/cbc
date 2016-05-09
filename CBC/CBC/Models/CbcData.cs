@@ -6,6 +6,7 @@ namespace CBC
 {
     public class CbcData
     {
+        public String Note { get; set; }
         public List<Beer> Beers { get; set; }
     }
 }

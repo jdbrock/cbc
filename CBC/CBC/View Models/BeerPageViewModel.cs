@@ -12,6 +12,9 @@ namespace CBC
     [ImplementPropertyChanged]
     public class BeerPageViewModel
     {
+        public Boolean HasDataNote { get { return !String.IsNullOrWhiteSpace(DataNote); } }
+        public String DataNote { get; private set; }
+
         public ObservableCollection<BeerViewModel> Beers { get; private set; }
 		public ObservableCollection<BeerViewModel> FilteredBeers { get; private set; }
 
@@ -69,6 +72,11 @@ namespace CBC
         private void OnOrderAZ()
         {
             Parent.SetOrder(BeerSortOrder.AZ);
+        }
+
+        public void SetNote(String note)
+        {
+            DataNote = note;
         }
 
         public void SetBeers(IEnumerable<Beer> inBeers)

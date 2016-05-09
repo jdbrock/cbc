@@ -20,7 +20,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Locations.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View Models\BeerPageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View Models\BeerTickPageViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)View Models\MainPageViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)View Models\MainTabbedPageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\BeerPage.xaml.cs">
       <DependentUpon>BeerPage.xaml</DependentUpon>
       <SubType>Code</SubType>

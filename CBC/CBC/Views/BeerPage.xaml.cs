@@ -16,12 +16,12 @@ namespace CBC
 		public BeerPage()
 		{
 			InitializeComponent();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private async void OnBeerFavorite(object sender, EventArgs e)
