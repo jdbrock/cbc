@@ -58,9 +58,9 @@
       <Label Text="Tap the box to like or tick. Tap elsewhere to rate." Margin="10,10,10,11" FontSize="Micro" />
     </StackLayout>
 
-    <!--<StackLayout BackgroundColor="#f4f4f4" IsVisible="{Binding HasDataNote}">
+    <StackLayout BackgroundColor="#f4f4f4" IsVisible="{Binding HasDataNote}">
       <Label Text="{Binding DataNote}" Margin="10,10,10,11" FontSize="Micro" />
-    </StackLayout>-->
+    </StackLayout>
 
     <ListView Margin="0,5,0,0" ItemsSource="{Binding FilteredBeers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true" GroupDisplayBinding="{Binding StyleName}" SeparatorColor="#eeeeee" SeparatorVisibility="None">
       <ListView.ItemTemplate>

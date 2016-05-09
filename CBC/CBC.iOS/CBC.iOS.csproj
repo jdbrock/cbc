@@ -76,11 +76,12 @@
     <ConsolePause>False</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <BuildIpa>True</BuildIpa>
-    <CodesignProvision>6f6b6c10-bfe6-4df3-a574-100cae44433e</CodesignProvision>
-    <CodesignKey>iPhone Distribution: Joseph Brock %28Z35UDRZRCC%29</CodesignKey>
+    <CodesignProvision>9279741b-e19b-4f7b-ac0f-9a558c9c8042</CodesignProvision>
+    <CodesignKey>iPhone Distribution: Joseph Brock (Z35UDRZRCC)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <CodesignExtraArgs>
     </CodesignExtraArgs>
+    <CodesignResourceRules />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
     <DebugType>none</DebugType>
