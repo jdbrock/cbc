@@ -62,7 +62,7 @@
       <Label Text="{Binding DataNote}" Margin="10,10,10,11" FontSize="Micro" />
     </StackLayout>
 
-    <ListView Margin="0,5,0,0" ItemsSource="{Binding FilteredBeers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true" GroupDisplayBinding="{Binding StyleName}" SeparatorColor="#eeeeee" SeparatorVisibility="None">
+    <ListView CachingStrategy="RecycleElement" Margin="0,5,0,0" ItemsSource="{Binding FilteredBeers}" RowHeight="76" ItemTapped="OnBeerTapped" ItemSelected="OnBeerSelected" Refreshing="OnRefreshing" IsPullToRefreshEnabled="true" GroupDisplayBinding="{Binding StyleName}" SeparatorColor="#eeeeee" SeparatorVisibility="None">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
