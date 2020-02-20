@@ -1,0 +1,4406 @@
+{
+  "Note": null,
+  "Beers": [
+    {
+      "Id": "4e45eb3f-b957-401d-9237-b38e821ed8d4",
+      "BreweryName": "Against The Grain",
+      "BeerName": "There Gose the Neighborhood",
+      "ABV": 0.0,
+      "StyleName": "4.8% Belgian-style gose with red bell pepper, calamansi and cilantro",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c0b8b59b-d58b-4675-a9ae-a17cc3476b4a",
+      "BreweryName": "Against The Grain",
+      "BeerName": "Citra Ass Down Double IPA",
+      "ABV": 0.0,
+      "StyleName": "8.2% Double India Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0ee2a5c9-6fff-4b6f-ba7c-2b310b2f7332",
+      "BreweryName": "Against The Grain",
+      "BeerName": "Pepperation H Smoked Pepper Ale",
+      "ABV": 0.0,
+      "StyleName": "7.1% Smoked Amber Ale with chillies and aged with hickory",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a6690287-6589-459c-bafd-dddc0ee094c2",
+      "BreweryName": "Against The Grain",
+      "BeerName": "Bo and Luke (2019 Coffee Inception)",
+      "ABV": 0.0,
+      "StyleName": "13% Imperial Smoked Stout with Dark Matter coffee",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d6b7cee6-b9f3-4863-9a2d-a57fc74cd2f5",
+      "BreweryName": "Against The Grain",
+      "BeerName": "Tequila Barrel Here I Gose Again",
+      "ABV": 0.0,
+      "StyleName": "4.8% Liepzig-style gose with red bell pepper calamansi and cilantro",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a856997b-70f2-4c4e-a2eb-c6146e39b712",
+      "BreweryName": "Against The Grain",
+      "BeerName": "70K",
+      "ABV": 0.0,
+      "StyleName": "11.5% Bourbon Barrel Aged Imperial Milk Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "270898ec-f7e0-484e-aea4-9648b77eba21",
+      "BreweryName": "American Solera",
+      "BeerName": "Oud Friends",
+      "ABV": 0.0,
+      "StyleName": "4.8%Mild aged in oak w/ Brett",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "35770ca6-9db3-4a82-aec9-517f175378a2",
+      "BreweryName": "American Solera",
+      "BeerName": "Loral Roberts,",
+      "ABV": 0.0,
+      "StyleName": "5% Kolsch",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dc61aba6-d2e0-45fd-9d81-8c221f24deb0",
+      "BreweryName": "American Solera",
+      "BeerName": "Farmtruck (w/ Evil Twin)",
+      "ABV": 0.0,
+      "StyleName": "6% blend of Saison and spontaneous beer",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4d9aa804-40ac-467d-806a-ca7f45a364e8",
+      "BreweryName": "American Solera",
+      "BeerName": "Foeder Cerise",
+      "ABV": 0.0,
+      "StyleName": "6% Golden Sour w/cherries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "63a39a4d-3081-4af5-bc17-e2bec5ff3050",
+      "BreweryName": "American Solera",
+      "BeerName": "Foederville",
+      "ABV": 0.0,
+      "StyleName": "6.2% oak-aged Sour dry hopped with Hallertau Blanc",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9f6a29a5-3d4d-4204-8a28-083e542ae324",
+      "BreweryName": "American Solera",
+      "BeerName": "West Coast Hays",
+      "ABV": 0.0,
+      "StyleName": "6.5% West Coast IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "884330b5-b76d-4703-a32d-71b3e626836f",
+      "BreweryName": "American Solera",
+      "BeerName": "Terpy Citra",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "984e6088-9c56-4ae5-aba7-da0c63d8f301",
+      "BreweryName": "American Solera",
+      "BeerName": "The Influencer",
+      "ABV": 0.0,
+      "StyleName": "8.2% DDH DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0b0f3e1a-f864-470d-9e25-5fa3f007e24c",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "Salome Saison",
+      "ABV": 0.0,
+      "StyleName": "5.1% Wood-fermented Saison with lemons, pink peppercorns and einkorn wheat",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f1e43571-fcef-48fb-a16f-374c2ecdfd53",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "Through the Great Southwest",
+      "ABV": 0.0,
+      "StyleName": "5.6% Pale Ale with Strata, Belma and Ekuanot",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b21a148f-ab91-4027-9150-72cea473c2af",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "Don't F#%k It Up",
+      "ABV": 0.0,
+      "StyleName": "5.7% Low impact Blonde Ale with orange blossom and wildflower honey",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2c745714-c5f7-46f3-8087-2ce1786305aa",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "White Canyon",
+      "ABV": 0.0,
+      "StyleName": "6.3% Blonde Stout with cacao nibs, star anise, and coffee",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "afa150a0-ddc8-4b0e-8efd-e6f29223bc24",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "La Ciudad",
+      "ABV": 0.0,
+      "StyleName": "6.4% Hazy IPA with Citra and Mosaic",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1a804ada-87d9-4cea-add5-731ac95b3bd1",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "Desert Dweller",
+      "ABV": 0.0,
+      "StyleName": "6.7% Mature Saison with toasted wild mesquite pods",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "25d88b60-4c43-458d-a3df-082aed6a345b",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "Apple Boutique",
+      "ABV": 0.0,
+      "StyleName": "6.8% mixed-fermentation sour/cider blend",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b4c3344e-e606-4c2c-bf76-bbd7a76d40d4",
+      "BreweryName": "Arizona Wilderness",
+      "BeerName": "American Presidential Stout",
+      "ABV": 0.0,
+      "StyleName": "11.5% Russian Imperial stout with cacao nibs and hot peppers",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "66deba72-c7a6-4901-85ce-0170a15c7036",
+      "BreweryName": "Bagby Beer",
+      "BeerName": "No Hype",
+      "ABV": 0.0,
+      "StyleName": "5.2% German-style Helles",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "947ea087-1ca8-4d24-8fdb-8bbb77b7d5a1",
+      "BreweryName": "Bagby Beer",
+      "BeerName": "Goon Brigade",
+      "ABV": 0.0,
+      "StyleName": "7.8% American IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "06731c26-e359-40ad-a264-2a3a44c6ec5f",
+      "BreweryName": "Bagby Beer",
+      "BeerName": "Three Beagles Brown",
+      "ABV": 0.0,
+      "StyleName": "5.5% English-style Brown Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1b3c8cd0-4e5d-4cfb-bc3b-40e917bce494",
+      "BreweryName": "Bagby Beer",
+      "BeerName": "Back Garden",
+      "ABV": 0.0,
+      "StyleName": "4% English-style Pale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5bf23147-c132-41bd-8055-59f1f757405f",
+      "BreweryName": "Bagby Beer",
+      "BeerName": "Barrel Aged Hefeweight",
+      "ABV": 0.0,
+      "StyleName": "8% Tequila barrel aged German-style pale weizenbock",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "63474c67-0fe7-4fcf-8725-004a03b67500",
+      "BreweryName": "Bagby Beer",
+      "BeerName": "Barrel Aged Lion's Pride",
+      "ABV": 0.0,
+      "StyleName": "10.5% Barrel-aged English Old Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ef4c368e-55b4-4cb2-8ed9-5b40b9924fc4",
+      "BreweryName": "Basqueland",
+      "BeerName": "Circular Fiction",
+      "ABV": 0.0,
+      "StyleName": "6.5% IPA with peach, passion fruit and lactose",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bec7f562-dd35-42d3-a186-318238ff0359",
+      "BreweryName": "Basqueland",
+      "BeerName": "El Rincón",
+      "ABV": 0.0,
+      "StyleName": "6.7% West Coast IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "523ae271-3611-43bf-b9c1-783bc58796b0",
+      "BreweryName": "Basqueland",
+      "BeerName": "I Thought We Were Friends (w/ Pohjala)",
+      "ABV": 0.0,
+      "StyleName": "10% Imperial Stout with granola, vanilla, cinnamon and lactose",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3ef12616-455d-4f1a-858c-e85bd503a7b1",
+      "BreweryName": "Basqueland",
+      "BeerName": "Commando",
+      "ABV": 0.0,
+      "StyleName": "6.5% DDH East Coast IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a4438a76-abe2-48c9-a66e-a8c97d7dc49e",
+      "BreweryName": "Basqueland",
+      "BeerName": "Santa Clara",
+      "ABV": 0.0,
+      "StyleName": "4.8% Helles Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f40b3325-6b21-4371-95b9-b4f8fdfb25c9",
+      "BreweryName": "Basqueland",
+      "BeerName": "Imparable",
+      "ABV": 0.0,
+      "StyleName": "6.8% West Coast IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b3d88fa6-df02-4421-994e-77ada5deaff4",
+      "BreweryName": "Bellwoods",
+      "BeerName": "Battenberg Cake (w/ Cloudwater)",
+      "ABV": 0.0,
+      "StyleName": "11.3% Imperial Stout with almond extract, apricot jam and Madagascar vanilla beans",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9bc4637f-2f91-4dfb-83fd-b3a5bd000002",
+      "BreweryName": "Bellwoods",
+      "BeerName": "Bellweiser",
+      "ABV": 0.0,
+      "StyleName": "4.8% Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ed1c73d6-67e2-4f14-8269-3ad5de9f3a50",
+      "BreweryName": "Bellwoods",
+      "BeerName": "White Picket Fence Peach",
+      "ABV": 0.0,
+      "StyleName": "5.7% Blended Moeder Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ae2bc60f-c3b9-4af6-940a-7f476095ba98",
+      "BreweryName": "Bellwoods",
+      "BeerName": "Roman Candle",
+      "ABV": 0.0,
+      "StyleName": "6.8% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "90bedc69-7614-4bf8-b20d-59e7c214fb81",
+      "BreweryName": "Bellwoods",
+      "BeerName": "Jutsu",
+      "ABV": 0.0,
+      "StyleName": "5.6% Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7d015442-493a-4a17-8929-de5dc831d0e2",
+      "BreweryName": "Bellwoods",
+      "BeerName": "Fruit Jelly King Plum",
+      "ABV": 0.0,
+      "StyleName": "5.6% Fruited Dry-Hopped Sour",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "70cc620b-496e-4f93-ab68-ea885ad12121",
+      "BreweryName": "Bellwoods",
+      "BeerName": "Farmageddon 2019 Cherry",
+      "ABV": 0.0,
+      "StyleName": "6.3% Barrel Aged Wild Farmhouse Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dbca7888-e4e0-4b4d-89ce-09810d463c6a",
+      "BreweryName": "Blackberry Farm",
+      "BeerName": "Classic Saison",
+      "ABV": 0.0,
+      "StyleName": "6.3% Belgian-style Farmhouse Ale brewed with European noble-type hops and premium two-row malt",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "762f2426-9e88-4367-a819-fb895fed9512",
+      "BreweryName": "Blackberry Farm",
+      "BeerName": "Yallerhammer",
+      "ABV": 0.0,
+      "StyleName": "5.2% American pale ale dry hopped with Amarillo, Cascade, Chinook, and Idaho 7 hops",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "45437dab-761b-4e4f-a312-dc3db8c64367",
+      "BreweryName": "Blackberry Farm",
+      "BeerName": "Beans of the Stone Age: Vienna",
+      "ABV": 0.0,
+      "StyleName": "6.8% Robust porter infused with Ethiopian Hambela Estate coffee beans",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c8bd2aa3-6c80-4859-8653-b0a55208be9e",
+      "BreweryName": "Boundary",
+      "BeerName": "H.R.",
+      "ABV": 0.0,
+      "StyleName": "10% TIPA with Citra, Vic Secret, Simcoe and Nelson Sauvin",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ef825444-8cf4-4977-b4a3-9e456ff3e9ab",
+      "BreweryName": "Boundary",
+      "BeerName": "I Used to Have a Cat",
+      "ABV": 0.0,
+      "StyleName": "5.2% Helles",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d75ec980-72e5-4bce-935a-90d3f51b62ca",
+      "BreweryName": "Boundary",
+      "BeerName": "Marcus",
+      "ABV": 0.0,
+      "StyleName": "5.1% mixed-fermentation Saison with blueberry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "501dfc42-7eba-4882-b865-cf30a1dc2870",
+      "BreweryName": "Boundary",
+      "BeerName": "Cuvée 2019",
+      "ABV": 0.0,
+      "StyleName": "5.2% mixed-fermentation Saison blended with House Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1bd3cab4-dbf3-49ce-b729-08f9506d3f57",
+      "BreweryName": "Brew By Numbers",
+      "BeerName": "55 Double IPA Mosaic",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA with Mosaic",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7c689692-b20f-404e-9338-40d2e42585f5",
+      "BreweryName": "Brew By Numbers",
+      "BeerName": "Pi Double IPA Passion Fruit",
+      "ABV": 0.0,
+      "StyleName": "9% DIPA with passion fruit",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a5a0218e-5dc1-4d98-b759-c5cc39518fd3",
+      "BreweryName": "Brew By Numbers",
+      "BeerName": "Pi Barrel Aged Imperial Stout Oreo",
+      "ABV": 0.0,
+      "StyleName": "11% Imperial Stout with Oreos",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5724412d-d732-44ed-ad16-ef169a7cd37f",
+      "BreweryName": "Brew By Numbers",
+      "BeerName": "Pi Barrel Aged Imperial Stout Coffee and Milk",
+      "ABV": 0.0,
+      "StyleName": "11% Imperial Stout with coffee and lactose",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "078f0fbd-f991-4d95-8357-4709367ab9c1",
+      "BreweryName": "Brew By Numbers",
+      "BeerName": "19 Imperial Gose Blackberry and Raspberry",
+      "ABV": 0.0,
+      "StyleName": "6.8% Imperial Gose with blackberry and raspberry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2c13e13c-c313-44fc-b736-f49358d8573e",
+      "BreweryName": "Brew By Numbers",
+      "BeerName": "18 Farmhouse Barrel Aged Saison Wildflower x Thiriez",
+      "ABV": 0.0,
+      "StyleName": "6% Barrel Aged Farmhouse Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "45381b03-302c-4de0-8e0f-546da6169e11",
+      "BreweryName": "Brewdog",
+      "BeerName": "Duopolis",
+      "ABV": 0.0,
+      "StyleName": "4.5% Oat Cream DDH IPA with Cascade, Chinook and Ariana",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fdb122bc-1d5e-4645-970e-cf673a65ac9b",
+      "BreweryName": "Brewdog",
+      "BeerName": "BrewDog Outpost Manchester: The Elementalist",
+      "ABV": 0.0,
+      "StyleName": "8.5% Imperial American Amber Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a64db60e-6767-4170-a210-ecef0ebbb17a",
+      "BreweryName": "Brewdog",
+      "BeerName": "Off Duty King",
+      "ABV": 0.0,
+      "StyleName": "13.2% Whisky and Rye BA Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8f9c08de-6388-454c-ab1b-63375b9e790d",
+      "BreweryName": "Brewdog",
+      "BeerName": "OverWorks: Arcade City",
+      "ABV": 0.0,
+      "StyleName": "10% Tokyo Sour Stout aged in whisky barrels with cranberries and jasmine",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c866f752-060e-4201-a799-adb9875932f5",
+      "BreweryName": "Brewdog",
+      "BeerName": "OverWorks: Electric Blue",
+      "ABV": 0.0,
+      "StyleName": "7.2% Sour Ale fermented with blueberry & lavender, aged in foeder",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e770d93f-38bb-4d27-8cf7-4cbd419690c5",
+      "BreweryName": "Brewdog",
+      "BeerName": "OverWorks: Rustic Lager",
+      "ABV": 0.0,
+      "StyleName": "4.5% Rustic Lager with 100% British malt and Pacific Northwest hops",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a91cb575-4e0a-40fd-ab4b-413fa3b9e3ba",
+      "BreweryName": "Brouwerij Kees",
+      "BeerName": "Hazy Sunrise",
+      "ABV": 0.0,
+      "StyleName": "7.1% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "56978020-1418-48d6-9f12-f81bfdc58598",
+      "BreweryName": "Brouwerij Kees",
+      "BeerName": "Caramel Fudge Stout Oloroso Edition",
+      "ABV": 0.0,
+      "StyleName": "11.5% Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "19398787-2a24-40eb-8553-07a886b2998b",
+      "BreweryName": "Brouwerij Kees",
+      "BeerName": "Enough is Never Enough",
+      "ABV": 0.0,
+      "StyleName": "10.5% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8272c719-5ff2-413b-8e45-239eee9f36b1",
+      "BreweryName": "Brouwerij Kees",
+      "BeerName": "Truly Scrumptious",
+      "ABV": 0.0,
+      "StyleName": "11.2% Baklava Pastry Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "62b136f6-a358-4741-a2f0-3662a89f3c52",
+      "BreweryName": "Brouwerij Kees",
+      "BeerName": "Anniversary #5",
+      "ABV": 0.0,
+      "StyleName": "9.5% Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c0a46df2-94e6-4ba7-bdc7-23fe3b7ee1fe",
+      "BreweryName": "Brouwerij Kees",
+      "BeerName": "Kveik IPA",
+      "ABV": 0.0,
+      "StyleName": "6% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "eab72d1f-5097-4eed-a1d9-acb25daec11c",
+      "BreweryName": "The Bruery",
+      "BeerName": "Ruekeller: Helles",
+      "ABV": 0.0,
+      "StyleName": "5.2% Bavarian-style Helles",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "393e4dcb-658f-4ed4-8ec0-6143049f57a0",
+      "BreweryName": "The Bruery",
+      "BeerName": "Spontanaheim",
+      "ABV": 0.0,
+      "StyleName": "5.8% Spontaneously-fermented ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fb423d3c-99c3-46e2-9fa9-9ef8bf38d87f",
+      "BreweryName": "The Bruery",
+      "BeerName": "Frambulous (2020)",
+      "ABV": 0.0,
+      "StyleName": "6.2% blend of oak-aged Sour Ale with raspberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "209ee9f8-d482-46b5-ad7e-bfd014c73ad4",
+      "BreweryName": "The Bruery",
+      "BeerName": "Relax DDH (It's Just a Hazy IPA)",
+      "ABV": 0.0,
+      "StyleName": "6.8% DDH IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "76e33322-abf9-4a78-a97d-c76638f36547",
+      "BreweryName": "The Bruery",
+      "BeerName": "Train to Beersel (2019)",
+      "ABV": 0.0,
+      "StyleName": "8.4% Lambic-style ale aged in French oak Cabernet Sauvignon barrels and American oak Sauvignon Blanc barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "06cf3fd7-0f3d-438d-ad62-c2346a85336c",
+      "BreweryName": "The Bruery",
+      "BeerName": "Retreat (This is a Double Hazy IPA)",
+      "ABV": 0.0,
+      "StyleName": "8.6% Double IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7ab34891-420b-4bc4-973e-2b7bb29621b8",
+      "BreweryName": "The Bruery",
+      "BeerName": "Bakery: Cherry Pie",
+      "ABV": 0.0,
+      "StyleName": "10.2% Bourbon barrel-aged Imperial Stout with freshly-picked tart cherries, vanilla, cinnamon and brown sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6fcc3099-5076-4b69-a17c-d3f8b5fd7e16",
+      "BreweryName": "The Bruery",
+      "BeerName": "Tart of Darkness: Rum BA w/ Cherries and Vanilla (2020)",
+      "ABV": 0.0,
+      "StyleName": "10.5% Stout aged in rum barrels with house mixed culture, cherries and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f1564419-385b-45c4-bcdf-649323a63463",
+      "BreweryName": "The Bruery",
+      "BeerName": "Mash and Vanilla (2019)",
+      "ABV": 0.0,
+      "StyleName": "13.7% Bourbon barrel-aged Barleywine with vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f6da8dc8-7139-4099-9d9f-b8f23af5a741",
+      "BreweryName": "The Bruery",
+      "BeerName": "The Archetype (2019)",
+      "ABV": 0.0,
+      "StyleName": "14.6% Bourbon barrel-aged, blended Strong Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "88d92715-a150-4b2e-9e2f-dd174879f0df",
+      "BreweryName": "The Bruery",
+      "BeerName": "White Chocolate (2020)",
+      "ABV": 0.0,
+      "StyleName": "14.8% Bourbon barrel-aged Wheatwine with cacao nibs and vanilla beans",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7d31d623-4a86-4caa-a2e5-dbbe25cd3f99",
+      "BreweryName": "The Bruery",
+      "BeerName": "Aloha Friday (2020)",
+      "ABV": 0.0,
+      "StyleName": "19.7% Bourbon barrel-aged Imperial Stout with toasted coconut and macadamia nuts",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d9dfbf35-5107-4142-b715-1b2422bf4e6b",
+      "BreweryName": "The Bruery",
+      "BeerName": "Black Tuesday: Blueberry Pancake (BT Box 2019)",
+      "ABV": 0.0,
+      "StyleName": "19.2% bourbon barrel-aged Imperial Stout with blueberries and maple syrup",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1ab96d7c-1cac-43c7-8bc3-69b0029be2f4",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Petite Saison",
+      "ABV": 0.0,
+      "StyleName": "3.5% mixed-fermentation Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4d775b6f-f144-4cb5-a097-3a08cca1ce02",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Huis",
+      "ABV": 0.0,
+      "StyleName": "4.5% Belgian Pale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2d37a141-3b15-4cc0-9c54-01cf28323c24",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Out of Vogue",
+      "ABV": 0.0,
+      "StyleName": "5.9% West Coast IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dc8e172d-6727-402e-9961-0d40629026f5",
+      "BreweryName": "Burning Sky",
+      "BeerName": "A New Dawn Fades",
+      "ABV": 0.0,
+      "StyleName": "6% Milk Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "75b04080-1182-4701-9a1c-9bd0b10b92f6",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Saison de Pêche",
+      "ABV": 0.0,
+      "StyleName": "6.3% Saison aged on peaches",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "18766b86-ec50-4b72-8af4-2de34d8b4e44",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Cuvée",
+      "ABV": 0.0,
+      "StyleName": "6.5% blended Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "74f9dfbf-6511-4693-b824-aa2b682ef2d6",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Cider Apple Saison",
+      "ABV": 0.0,
+      "StyleName": "6.7% Saison aged on apples",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ad16a913-d216-4478-99ce-4fb74c09d513",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Four Friends Blend",
+      "ABV": 0.0,
+      "StyleName": "7.7% spontaneous and mixed-fermentation blend",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "38d658cf-44b0-4ae1-976a-0ed38534113e",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Rustique",
+      "ABV": 0.0,
+      "StyleName": "8.5% wild Belgian Pale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "95b570a7-7ea1-4cd8-86d8-fdb777e48aee",
+      "BreweryName": "Burning Sky",
+      "BeerName": "Imperial Stout",
+      "ABV": 0.0,
+      "StyleName": "9% Imperial Stout aged in oak vats",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b1fc9280-1099-419c-b5b2-18b5617d86be",
+      "BreweryName": "Burnt Mill",
+      "BeerName": "Dark Second (w/ Donzoko)",
+      "ABV": 0.0,
+      "StyleName": "5% Dark Lager with cocoa husks",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e2baef40-bf7f-4c90-b71e-515af1ef5fa3",
+      "BreweryName": "Burnt Mill",
+      "BeerName": "Bitter Lake",
+      "ABV": 0.0,
+      "StyleName": "5.5% West Coast Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a2919cf2-7ccd-496b-8f58-03e0cd078ff0",
+      "BreweryName": "Burnt Mill",
+      "BeerName": "Gardens of Green - Idaho & Wai-iti",
+      "ABV": 0.0,
+      "StyleName": "6.2% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "30dea355-f3c0-41f6-9efe-5e1fbf56bf47",
+      "BreweryName": "Burnt Mill",
+      "BeerName": "Lights On The Hill",
+      "ABV": 0.0,
+      "StyleName": "6.2% Kveik IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5fa58eb8-92b5-4c9e-827e-60cecd357420",
+      "BreweryName": "Burnt Mill",
+      "BeerName": "DIMMA (w/ Dugges)",
+      "ABV": 0.0,
+      "StyleName": "6.4% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0bd97228-2a40-48f9-97ae-b059eecd9c7e",
+      "BreweryName": "Burnt Mill",
+      "BeerName": "Shadow Caster (w/ Lost and Grounded)",
+      "ABV": 0.0,
+      "StyleName": "6.5% Chocolate Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "863d6642-ab07-409b-97ee-36f55fd968ec",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Strawberry Shorty",
+      "ABV": 0.0,
+      "StyleName": "4.3% Tart Wheat Beer with strawberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "af00bf6e-4a57-4348-8f8b-2d18f86e44c1",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Ancient Idols,",
+      "ABV": 0.0,
+      "StyleName": "5.5% Helles Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b6749cdd-7d49-4c5e-a313-56a0348e9d68",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "7 Wonders",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "48ba0573-6422-4362-a412-4b549cbf5be7",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Farmer Direct: Blenheim Apricot",
+      "ABV": 0.0,
+      "StyleName": "6.2% Wild Ale aged on apricots",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3147ef6e-d979-45a4-be0f-a74e0dc61256",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Loza Farms",
+      "ABV": 0.0,
+      "StyleName": "6.8% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "62d8d37f-b882-4c66-bfd4-0bdebff64100",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Dobis Plus",
+      "ABV": 0.0,
+      "StyleName": "7.2% all-Citra IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "19c6fa53-bbb0-43e5-bf57-533709c17142",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Mad Nibs",
+      "ABV": 0.0,
+      "StyleName": "7.2% Double Chocolate Milk Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e9c03522-3ce2-441f-9161-e48dc19407ad",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Coffee & Cigarettes",
+      "ABV": 0.0,
+      "StyleName": "7.9% Smoked Coffee Porter",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c57514eb-cf21-4b75-ba42-7d1c48ae37fc",
+      "BreweryName": "Cellarmaker",
+      "BeerName": "Double Mount Nelson,",
+      "ABV": 0.0,
+      "StyleName": "8.2% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9ef9dced-6034-4e0c-b196-d13282148826",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Educated Guest (FFB IPA)",
+      "ABV": 0.0,
+      "StyleName": "6% Brewed specially for our festival! IPA with Citra and Simcoe hops",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e1c69f7c-6205-4134-a09d-a327ec6193a3",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Chubbles (w/ The Veil)",
+      "ABV": 0.0,
+      "StyleName": "10% Triple IPA with Galaxy, El Dorado and Citra",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f06f69a5-5bd9-4189-a894-0921c3683d82",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Fifth Birthday IPA",
+      "ABV": 0.0,
+      "StyleName": "6% IPA dry hopped with Citra and Mosaic",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c01f2e6a-ce25-4de1-bb52-a23062e311d3",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Fifth Birthday DIPA",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA with Citra, Centennial and Sabro",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1a3dff04-d02d-4404-a8ff-b9c723d35ad4",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Fifth Birthday TIPA",
+      "ABV": 0.0,
+      "StyleName": "10% Triple IPA with Nelson Sauvin, Motueka and Simcoe",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3a7bb9d2-d95a-4d40-a803-63e493bdb54f",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Persistence Is Utile",
+      "ABV": 0.0,
+      "StyleName": "10% Imperial Stout with single-origin Costa Rican Viejita beans from Workshop Coffee, tonka beans, vanilla pods and cacao nibs",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "19f63aec-0ebf-4b4a-8ded-a5c7a32bd4d4",
+      "BreweryName": "Cloudwater",
+      "BeerName": "One Slice To Yule Them All",
+      "ABV": 0.0,
+      "StyleName": "11% Imperial Stout with orange zest, vanilla and spices",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bba83c9c-6b45-4c07-93de-e6c37cd776b5",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Love In The Dark (w/ Track)",
+      "ABV": 0.0,
+      "StyleName": "10% Imperial Stout with cacao, hazelnut and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "544af8c1-4d44-44d7-9881-49d13f10f152",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Bourbon BA Barley Wine",
+      "ABV": 0.0,
+      "StyleName": "8.7% English-style Barley Wine",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2245fd2f-5148-455f-9a33-16b36b930354",
+      "BreweryName": "Cloudwater",
+      "BeerName": "DIPA",
+      "ABV": 0.0,
+      "StyleName": "8.5% Signature Double IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5aa226fd-b600-452e-8f73-048c4985d388",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Friends From Another Platform",
+      "ABV": 0.0,
+      "StyleName": "6% IPA fermented with Kveik yeast",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3cbe1ce1-72a1-4541-a19c-785db36175dd",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Foudre du Haut (w/ De Garde)",
+      "ABV": 0.0,
+      "StyleName": "7% Oak-aged Wild Ale initially fermented with a mixed-culture wine yeast before secondary fermentation in foudre with De Garde’s house culture",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "58e81a22-26f6-43dc-84da-f8572b4eb4eb",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Blueberry du Haut",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bc338741-4318-4416-a008-fe6effb57f1e",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Chuckle du Haut with Plums",
+      "ABV": 0.0,
+      "StyleName": "5.7% Fruit sour blend",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4e31700a-33b9-4749-8f34-0195d8d656d0",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Light Lager",
+      "ABV": 0.0,
+      "StyleName": "3.5% Easy-drinking signature light Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ff9c79bb-49e1-4c31-883e-fc03824ce96a",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Mediating Constructs",
+      "ABV": 0.0,
+      "StyleName": "8.2% Sour Pale Ale aged in red wine barrels for 3 years",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8001e26e-fb05-4c58-8113-b4dd172824d0",
+      "BreweryName": "Cloudwater",
+      "BeerName": "I B Who?",
+      "ABV": 0.0,
+      "StyleName": "11% English-style Barley Wine",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1096739e-6ae4-4621-bc32-d9a6b1dffd28",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Strawberry Shorty",
+      "ABV": 0.0,
+      "StyleName": "4.3% Tart Wheat Beer with strawberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8128b854-186c-4101-a492-4eedda989ccc",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Ancient Idols,",
+      "ABV": 0.0,
+      "StyleName": "5.5% Helles Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d1547382-7b53-4a33-817c-05c01720e17d",
+      "BreweryName": "Cloudwater",
+      "BeerName": "7 Wonders",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c9c819e7-1be1-458a-b7ac-81a6b9abcfef",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Farmer Direct: Blenheim Apricot",
+      "ABV": 0.0,
+      "StyleName": "6.2% Wild Ale aged on apricots",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f611eafc-b3a1-4872-a20e-1ee6d02942c3",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Loza Farms",
+      "ABV": 0.0,
+      "StyleName": "6.8% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f8ed7228-8157-4ffb-b269-9ae6c8c3755f",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Dobis Plus",
+      "ABV": 0.0,
+      "StyleName": "7.2% all-Citra IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "049f90b9-484c-4de8-bb3d-fd4769c4ba84",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Mad Nibs",
+      "ABV": 0.0,
+      "StyleName": "7.2% Double Chocolate Milk Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "751293b2-2edb-49b9-844e-5ad546b10049",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Coffee & Cigarettes",
+      "ABV": 0.0,
+      "StyleName": "7.9% Smoked Coffee Porter",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5780cb89-4702-4ff2-8358-10d12f3c46d7",
+      "BreweryName": "Cloudwater",
+      "BeerName": "Double Mount Nelson,",
+      "ABV": 0.0,
+      "StyleName": "8.2% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "25ae9a9c-b4fc-47c9-b1d7-e016cf121dd9",
+      "BreweryName": "Collective Arts",
+      "BeerName": "Blueberry Chocolate Sour",
+      "ABV": 0.0,
+      "StyleName": "5.6% Sour with blueberries and cocoa",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f4543542-88a9-441b-9298-e4d0fc802046",
+      "BreweryName": "Collective Arts",
+      "BeerName": "IPA12",
+      "ABV": 0.0,
+      "StyleName": "6.9% Nelson Sauvin and Mosaic IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8b27fb06-2c0b-4be5-a917-31eefa1990bd",
+      "BreweryName": "Collective Arts",
+      "BeerName": "Audio Visual",
+      "ABV": 0.0,
+      "StyleName": "4.9% Lager with Wai-iti hops",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "146315fa-5c9b-433a-96fd-5bdf5ba36673",
+      "BreweryName": "Collective Arts",
+      "BeerName": "Origin Of Darkness Voodoo (w/ Voodoo)",
+      "ABV": 0.0,
+      "StyleName": "11.5% Imperial Stout with cocoa nibs and cassia bark",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5015b071-787c-417f-ada0-374a11e0673a",
+      "BreweryName": "Collective Arts",
+      "BeerName": "Origin Of Darkness CRAK (w/ CRAK)",
+      "ABV": 0.0,
+      "StyleName": "8.4% Cannoli and chocolate Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "44ad4c63-4ba6-4983-98a9-7fbf4263f1e1",
+      "BreweryName": "Collective Arts",
+      "BeerName": "Surround Sound V5",
+      "ABV": 0.0,
+      "StyleName": "8.2% DDH DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "32d9115a-1777-4b96-bfad-2ec28f1ba68a",
+      "BreweryName": "Collective Arts",
+      "BeerName": "Raspberry Dry Hop Sour",
+      "ABV": 0.0,
+      "StyleName": "5.5% Dry Hop Sour with Mosaic and Barbe Rouge and raspberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "edaf1e96-c3ce-413e-bb6e-50d2cd655eb1",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Athena Paradiso (Cherry, Raspberry and Cranberry)",
+      "ABV": 0.0,
+      "StyleName": "4.5% Fruited Berliner Weisse",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7949a3e6-e70f-403d-abde-f69a32874c97",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Bibo",
+      "ABV": 0.0,
+      "StyleName": "4.9% Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "70c160e9-ce3e-4e84-b869-907ee8e81366",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Everything Is... (Citra)",
+      "ABV": 0.0,
+      "StyleName": "5.2% Dry Hopped Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b6e5ebf7-af83-45cc-a98b-47385ef0688d",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Always A Pleasure",
+      "ABV": 0.0,
+      "StyleName": "6% Dry Hopped Foeder Beer",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "414e39d2-6b9e-4c63-8024-5ca51b70187c",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Yonah Skins",
+      "ABV": 0.0,
+      "StyleName": "6.5% Grape skin-contact Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "da5acd98-6530-4c02-b149-d6e69a1b9dac",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "River Ridge Red",
+      "ABV": 0.0,
+      "StyleName": "6.6% Oak-aged ale with red raspberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2504a1a1-ac6d-401c-ac62-46e958bdbe29",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Anicca (w/ Cloudwater)",
+      "ABV": 0.0,
+      "StyleName": "7.5% Saison brewed with apples and honey, and aged in oak barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bb088e57-913a-4e3d-8db1-cd60b6b19e7f",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Cuts From The Bine",
+      "ABV": 0.0,
+      "StyleName": "8% West Coast-style DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c0dd80e5-707c-4a1d-9f99-ccc1ef21dbd3",
+      "BreweryName": "Creature Comforts",
+      "BeerName": "Concurrence Blend No. 2",
+      "ABV": 0.0,
+      "StyleName": "12.1% Imperial Stout aged in whiskey barrels with coffee and cinnamon",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9a3e5b8c-9a5d-491d-9d1f-abd810a3f52d",
+      "BreweryName": "De Garde",
+      "BeerName": "The Maison",
+      "ABV": 0.0,
+      "StyleName": "5.5% spontaneous wild ale aged in oak barrels, blended from three years",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "120838c2-2639-46b8-9545-8fce4e0f86ab",
+      "BreweryName": "De Garde",
+      "BeerName": "Ivy",
+      "ABV": 0.0,
+      "StyleName": "6% spontaneous wild ale aged in oak barrels for two years",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "883d70e4-396e-4952-9917-78377eacf257",
+      "BreweryName": "De Garde",
+      "BeerName": "The Orchard",
+      "ABV": 0.0,
+      "StyleName": "6.5% spontaneous wild ale aged in oak barrels for two years",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2ede81a7-1c18-4f7d-b8ad-2e99108faddf",
+      "BreweryName": "De Garde",
+      "BeerName": "The Kriek",
+      "ABV": 0.0,
+      "StyleName": "6.5% spontaneous wild ale aged in oak barrels for two years with Montmorency and Morello cherries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "982bfc08-3a6c-4df0-ae56-0f1c8f7331d3",
+      "BreweryName": "De Garde",
+      "BeerName": "The Purple",
+      "ABV": 0.0,
+      "StyleName": "7% spontaneous wild ale aged in oak barrels for two years with black and red raspberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ccf233f9-0d8d-41b3-bf2b-44e30b5ce286",
+      "BreweryName": "De Garde",
+      "BeerName": "The Vigne",
+      "ABV": 0.0,
+      "StyleName": "7.2% spontaneous wild ale aged in oak barrels for two years with Zinfandel grapes",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "eb09d9b7-0f80-4df4-abd0-3c3f85e99ff4",
+      "BreweryName": "Deya",
+      "BeerName": "Steady Rolling Man",
+      "ABV": 0.0,
+      "StyleName": "5.2% Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2aff71fd-2b01-41b0-b5bb-332bc493a4a6",
+      "BreweryName": "Deya",
+      "BeerName": "Dust My Broom",
+      "ABV": 0.0,
+      "StyleName": "5.8% Single-hop Simcoe Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5a718536-3fdb-459e-a235-7ea96f479757",
+      "BreweryName": "Deya",
+      "BeerName": "Blend 2",
+      "ABV": 0.0,
+      "StyleName": "6% Mixed-fermentation ale with plums",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "849e39d9-1aae-47b5-b8b0-105c5d5f6790",
+      "BreweryName": "Deya",
+      "BeerName": "Blend 1",
+      "ABV": 0.0,
+      "StyleName": "6.5% Mixed-fermentation ale with elderflower",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "27b04fca-ae5a-49a4-bd3e-060fa3482785",
+      "BreweryName": "Deya",
+      "BeerName": "Meet Me In The City",
+      "ABV": 0.0,
+      "StyleName": "6.5% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "857ae8b1-d422-44c9-a14d-1dd6fa54d4c0",
+      "BreweryName": "Deya",
+      "BeerName": "Eye Of The Duck",
+      "ABV": 0.0,
+      "StyleName": "6.8% Sour IPA with almond, vanilla, lactose and raspberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ca98e257-7cb4-4252-a2a3-d1c2a22db959",
+      "BreweryName": "Deya",
+      "BeerName": "High Planes Drifter (w/ Verdant)",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "28d69532-fcff-45bf-b680-9e95f5d63e36",
+      "BreweryName": "Dugges",
+      "BeerName": "Havtorn",
+      "ABV": 0.0,
+      "StyleName": "5.5% sea buckthorn and cloudberry Sour",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b30db3fb-fa88-4d24-9c65-bd0dc2c40124",
+      "BreweryName": "Dugges",
+      "BeerName": "Fudge",
+      "ABV": 0.0,
+      "StyleName": "10% Imperial Stout with vanilla and cocoa",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1d6f4247-b300-428d-aeca-9497baecd44a",
+      "BreweryName": "Dugges",
+      "BeerName": "Anagram BA",
+      "ABV": 0.0,
+      "StyleName": "15% barrel-aged Imperial Stout with blueberry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1e90232a-2a74-42b8-b7d6-e7c6b8982a9c",
+      "BreweryName": "Dugges",
+      "BeerName": "Warley Bine",
+      "ABV": 0.0,
+      "StyleName": "10% Barley Wine",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5d8911bc-09dc-43ae-90cb-8ad9285aea45",
+      "BreweryName": "Dugges",
+      "BeerName": "Cola",
+      "ABV": 0.0,
+      "StyleName": "4.5% Sour with coriander, nutmeg, lime, cinnamon and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e7a7e4fc-6c0b-4b56-a83b-fe7013390d70",
+      "BreweryName": "Dugges",
+      "BeerName": "Big Barrel Licorice Idjit",
+      "ABV": 0.0,
+      "StyleName": "14.0% bourbon barrel-aged Imperial Stout with liquorice",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "52d9ceaa-f3e8-42a4-911b-ac7714011b02",
+      "BreweryName": "Duration",
+      "BeerName": "Petrichor (w/ Cloudwater)",
+      "ABV": 0.0,
+      "StyleName": "6% Agricultural IPA with organic Norfolk beetroots from Bagthorpe Farm",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2742d333-e6b9-4201-be1b-755d269687e3",
+      "BreweryName": "Duration",
+      "BeerName": "Turtles All The Way Down",
+      "ABV": 0.0,
+      "StyleName": "5.5% American Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "eb3f10b6-d808-4b4e-88f0-66ee73589e30",
+      "BreweryName": "Duration",
+      "BeerName": "Promise of Spring",
+      "ABV": 0.0,
+      "StyleName": "5% Wheat beer with the zing of orange and Tagete flowers from Nurtured in Norfolk",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d71a410f-d7fc-4a57-9420-62b7eba9f921",
+      "BreweryName": "Duration",
+      "BeerName": "Dripping Pitch",
+      "ABV": 0.0,
+      "StyleName": "6.7% West Coast IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c21dd7c8-a2e1-4b02-8de6-821cc36831e4",
+      "BreweryName": "Duration",
+      "BeerName": "Sweeping Coast",
+      "ABV": 0.0,
+      "StyleName": "4.8% West Coast Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6752d665-bef6-44e6-b07f-a8029937adb6",
+      "BreweryName": "Duration",
+      "BeerName": "Doses",
+      "ABV": 0.0,
+      "StyleName": "5.1% German Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ebb7492d-fb37-4f5a-834b-f0fbfb8e82fa",
+      "BreweryName": "Dwinell Country Ales",
+      "BeerName": "Acid Wash (w/ Cloudwater)",
+      "ABV": 0.0,
+      "StyleName": "4.5% A blended, oak-conditioned saison wet-hopped with freshly picked Mosaic from the Yakima Valley, Washington",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "18aa3569-789f-4ebf-b8d4-fef47d25cbe7",
+      "BreweryName": "Dwinell Country Ales",
+      "BeerName": "Fruit Machine",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7a6a3845-3eda-4fbf-8d3f-7925af7626d8",
+      "BreweryName": "Dwinell Country Ales",
+      "BeerName": "Extra Ordinary",
+      "ABV": 0.0,
+      "StyleName": "5.5% A blended, barrel-aged saison dry-hopped with Mosaic cryo to make a hoppy Country Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "40904d30-01c3-4c59-9437-9f757e3a4197",
+      "BreweryName": "Dwinell Country Ales",
+      "BeerName": "Taproot",
+      "ABV": 0.0,
+      "StyleName": "4% A mixed-culture farmhouse ale spiced with carrot flowers",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "98204ecd-5d25-44bc-8659-93718d7fff02",
+      "BreweryName": "Evil Twin Nyc",
+      "BeerName": "Our Marshmallow Raspberry, Cherry, Vanilla Slush Pop",
+      "ABV": 0.0,
+      "StyleName": "6.5% Sour IPA with milk sugar, raspberry, cherry, vanilla and our marshmallow",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d4eceac7-e908-47e7-aff8-e90a5b668acf",
+      "BreweryName": "Evil Twin Nyc",
+      "BeerName": "Our Coconut, Lime, Marshmallow, Strawberry, Banana Gose Pop",
+      "ABV": 0.0,
+      "StyleName": "6.6% Gose with milk sugar, coconut, lime, sea salt, marshmallow, strawberry and banana",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7bb20c59-3dd1-497f-ab62-d5db78b883b4",
+      "BreweryName": "Evil Twin Nyc",
+      "BeerName": "Cinnamon Baked Pear Sour",
+      "ABV": 0.0,
+      "StyleName": "7% Sour IPA with brown sugar, pear and cinnamon",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "26301019-fb73-4f1b-9421-08530fe5beb0",
+      "BreweryName": "Evil Twin Nyc",
+      "BeerName": "Not So Dry January Mango Guava Bodega Smoothie",
+      "ABV": 0.0,
+      "StyleName": "7% Sour IPA with milk sugar, guava, mango and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a01da3e2-8222-4abb-acc3-e78fee51d917",
+      "BreweryName": "Evil Twin Nyc",
+      "BeerName": "Millions of Peaches, Apricots and Almonds, Peaches, Apricots and Almonds For Me",
+      "ABV": 0.0,
+      "StyleName": "7% Sour IPA brewed with apricot, peach & almond",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1bb5dfb3-064c-433f-8c70-f45545f74f11",
+      "BreweryName": "Evil Twin Nyc",
+      "BeerName": "Proone Joose",
+      "ABV": 0.0,
+      "StyleName": "11% Barley Wine conditioned on raisins, prunes and dates in red wine barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7088c1f7-aab9-469e-9757-fa942345408c",
+      "BreweryName": "Evil Twin Nyc",
+      "BeerName": "It's 'Swiss Chocolate Almond Coffee' not 'Swiss Chocolate, Almond & Coffee'",
+      "ABV": 0.0,
+      "StyleName": "12.2% Imperial Stout conditioned on 'Swiss Chocolate Almond Coffee’",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dd49e71b-9e1c-4eab-b253-7a42a7d6e407",
+      "BreweryName": "Finbacx",
+      "BeerName": "Crispy Buoy (w/ Interboro)",
+      "ABV": 0.0,
+      "StyleName": "4.9% Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "513448ca-ce12-40d2-b5a8-0a785a20c160",
+      "BreweryName": "Finbacx",
+      "BeerName": "Zero Point",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9fd98e54-bbbe-43e2-b804-fba4e22e6121",
+      "BreweryName": "Finbacx",
+      "BeerName": "Breach the Surface",
+      "ABV": 0.0,
+      "StyleName": "6.5% IPA dry hopped with Nelson, Waimea and 007",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9deb453a-a17f-4e66-9c0e-833f68fd4825",
+      "BreweryName": "Finbacx",
+      "BeerName": "Integration (w/ Unseen Creatures)",
+      "ABV": 0.0,
+      "StyleName": "7.7% mixed-culture Sour Ale with cherry and mango, fermented in oak and aged over 15 months",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f276212c-db76-4920-98b9-3e63083de4b5",
+      "BreweryName": "Finbacx",
+      "BeerName": "Points Beyond",
+      "ABV": 0.0,
+      "StyleName": "7.8%",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f467b4a3-c640-41e8-9820-f11c88e023d6",
+      "BreweryName": "Finbacx",
+      "BeerName": "See You",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA with Cantaloupe, dry hopped with Mosaic, Blanc and Belma",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2bcbf65a-a540-46c0-bb09-ef7ad21f8e00",
+      "BreweryName": "Finbacx",
+      "BeerName": "Illuminous",
+      "ABV": 0.0,
+      "StyleName": "9% mixed culture Golden Sour refermented on NY state Riesling skins",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3ab44614-839e-40f3-8743-85c453922303",
+      "BreweryName": "Finbacx",
+      "BeerName": "Bird God",
+      "ABV": 0.0,
+      "StyleName": "9.1% DIPA dry hopped with Citra, 007 and Galaxy",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1f6dc2e8-5710-43d0-b551-cec555836a36",
+      "BreweryName": "Finbacx",
+      "BeerName": "Acid Green",
+      "ABV": 0.0,
+      "StyleName": "10% Double Dry Hopped Triple IPA with Sabro Cryo, Blanc, Columbus, Azacca and Belma",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "45fb3e9a-bd00-4481-a408-aa9d3644b567",
+      "BreweryName": "Finbacx",
+      "BeerName": "Grazing on the Ordinary",
+      "ABV": 0.0,
+      "StyleName": "12% Imperial Snack Stout with hazelnut, coconut and a touch of milk sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0ae6895e-c996-4ff0-8aa2-3182a95c1396",
+      "BreweryName": "Finbacx",
+      "BeerName": "Omura Orange (w/ Bottle Logic)",
+      "ABV": 0.0,
+      "StyleName": "12% barrel-aged Imperial Stout with chocolate, orange and cinnamon",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dc6d6e61-7027-4306-bd8a-629831b07de3",
+      "BreweryName": "Finbacx",
+      "BeerName": "2019 BQE - Chocolate + Coffee",
+      "ABV": 0.0,
+      "StyleName": "12.2% barrel-aged Imperial Stout with chocolate and coffee",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "638589b5-1943-49ed-b3ad-ddd87d091ad6",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "Nebo Pilsner",
+      "ABV": 0.0,
+      "StyleName": "5.2% Pilsner hopped with Saaz and Tettnang",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b0e209c5-39cd-475f-9074-50116225d9af",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "Oak Stand",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a3ebfc7c-c875-49bd-962d-4d8e3c33f3b2",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "Whippoorwill",
+      "ABV": 0.0,
+      "StyleName": "4.5% Witbier brewed with the zest and juice of fresh oranges, coriander and Numi's Earl Grey tea",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b5fc0744-a858-40ba-8e78-b45e6f6b8241",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "Ticky Ticky Buzz",
+      "ABV": 0.0,
+      "StyleName": "2.8% Mixed-Culture Kvass de Meil aged on cardamom pod",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e0db5cec-c975-4f49-a45d-1f1d7facbc4e",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "Access Granted",
+      "ABV": 0.0,
+      "StyleName": "4.8%",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e731ea68-85ba-4409-a8d8-bdc9b7d2d5b0",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "Carolina Custard",
+      "ABV": 0.0,
+      "StyleName": "6.4% Appalachian Wild Ale with paw paw fruit, matured in oak and wine barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c71d5224-f429-4b2a-9f50-4d40c47c4dd2",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "Gin BA Rhythm Rug",
+      "ABV": 0.0,
+      "StyleName": "7.2% Appalachian Wild Ale with local strawberries matured in wine and gin barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e11d9669-b3d5-463d-96db-76dea32b5003",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "2019 AWAS BLEND #1",
+      "ABV": 0.0,
+      "StyleName": "7.2% Appalachian Wild Ale with Cabernet Sauvignon grapes, blueberries and reishi mushrooms",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cbdcd0e2-2a40-4f6b-b052-708e1f2b0c3b",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "2019 AWAS BLEND #2",
+      "ABV": 0.0,
+      "StyleName": "7.2% Appalachian Wild Ale with paw paw fruit and scuppernong grapes",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "17f8df07-a4e7-4a3c-a4ec-d7d99e12b602",
+      "BreweryName": "Fonta Flora",
+      "BeerName": "2019 AWAS BLEND #3",
+      "ABV": 0.0,
+      "StyleName": "7.2% Appalachian Wild Ale with North Carolinian plums, cherries, vanilla and cinnamon",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0f43e04e-7ac5-4f89-811d-44a165a1a0ff",
+      "BreweryName": "Forest &Amp; Main",
+      "BeerName": "Know Each Other",
+      "ABV": 0.0,
+      "StyleName": "3% Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "559057b2-4004-42ed-823c-55a83ec4bbd3",
+      "BreweryName": "Forest &Amp; Main",
+      "BeerName": "Solaire",
+      "ABV": 0.0,
+      "StyleName": "4.5% Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "90a67058-7b5f-440a-bc76-ac80a42a9c12",
+      "BreweryName": "Forest &Amp; Main",
+      "BeerName": "The World Below (w/ Fonta Flora)",
+      "ABV": 0.0,
+      "StyleName": "4.5% Biere De Garde",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "53eef28b-5808-4c88-b72a-21444aaaaf46",
+      "BreweryName": "Forest &Amp; Main",
+      "BeerName": "Cult Vibes",
+      "ABV": 0.0,
+      "StyleName": "5.0% Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "93f6b79c-b0b5-428b-8ba2-9367d65cde89",
+      "BreweryName": "Forest &Amp; Main",
+      "BeerName": "Marius",
+      "ABV": 0.0,
+      "StyleName": "6% Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b9f6cc48-27c2-4bff-b38f-b9f1b6589113",
+      "BreweryName": "Forest &Amp; Main",
+      "BeerName": "Ghost Marius",
+      "ABV": 0.0,
+      "StyleName": "6% Saison with plum and cherry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0ccf7f9e-e7c8-409a-92b0-8745be47587f",
+      "BreweryName": "Fuerst Wiacek",
+      "BeerName": "Long Tooth",
+      "ABV": 0.0,
+      "StyleName": "6.8% IPA dry hopped with Mosaic & Loral",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "84734eb3-7ab8-422d-b95f-7ca095a3a83e",
+      "BreweryName": "Fuerst Wiacek",
+      "BeerName": "Discotheque",
+      "ABV": 0.0,
+      "StyleName": "6.8% IPA dry hopped with Citra, Mosaic & HBC 692",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "de0b4f64-073e-4360-b594-3d4568701d68",
+      "BreweryName": "Fuerst Wiacek",
+      "BeerName": "Hawt",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA Dry hopped with Simcoe & Mosaic",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "56360f78-c2bc-48d1-90f4-fc161fbff4b3",
+      "BreweryName": "Fuerst Wiacek",
+      "BeerName": "Nightjar",
+      "ABV": 0.0,
+      "StyleName": "11.6% Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8fe2083a-e7c0-47cd-9e87-07f04eae9d30",
+      "BreweryName": "Fuerst Wiacek",
+      "BeerName": "Polychrome",
+      "ABV": 0.0,
+      "StyleName": "6.8% IPA dry hopped with Citra, Mosaic & Amarillo",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "afca4184-df94-4c44-8427-f5e533c56db8",
+      "BreweryName": "Fuerst Wiacek",
+      "BeerName": "Turbulence",
+      "ABV": 0.0,
+      "StyleName": "6% Fruited Berliner Weisse with blueberry, mango, raspberry and milk sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "26e26b18-84c6-4de2-adc2-b67b8cb76579",
+      "BreweryName": "Fyne Ales",
+      "BeerName": "Black Forest Mills & Hills (w/ Brouwerij De Molen)",
+      "ABV": 0.0,
+      "StyleName": "9.5% Imperial Stout with chocolate and cherry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5465a37c-110d-4c73-b6a1-d0e564e82c5c",
+      "BreweryName": "Fyne Ales",
+      "BeerName": "Origins Brewing: Elegy (w/ Cigar City)",
+      "ABV": 0.0,
+      "StyleName": "11.5% barrel-aged Dark Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ff6f018b-916e-4d08-9ab1-45cc187fa2dd",
+      "BreweryName": "Fyne Ales",
+      "BeerName": "Origins Brewing: Beams (w/ Duration)",
+      "ABV": 0.0,
+      "StyleName": "5.7% blended, rustic Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c1dc2acd-f9c8-4108-9048-d8f56df6995c",
+      "BreweryName": "Fyne Ales",
+      "BeerName": "Origins Brewing: Expedition II",
+      "ABV": 0.0,
+      "StyleName": "6.9% single-hop Nelson Sauvin IPA rested in first-fill Chardonnay wine barrels for a year",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "90505266-ee43-42ed-b81b-4c7dbf820be5",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Cotorres (w/ Alvarado Street)",
+      "ABV": 0.0,
+      "StyleName": "5.5% Apricot, blood peach, mango and guava Berliner Weisse",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0e3afff1-a691-4754-b253-a608eda4554b",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Whale Mist (w/ Collective Arts)",
+      "ABV": 0.0,
+      "StyleName": "8.5% Blueberry, blackberry and blackcurrant Imperial Berliner Weisse",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d91f089f-61d5-4d61-8b19-f895f879ad7f",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Gone Hollywood",
+      "ABV": 0.0,
+      "StyleName": "4.5% Rhubarb and blackberry Barcelona Weisse",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6b9acd7f-3807-4836-abb0-4be9d1a45af2",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Circus Tears",
+      "ABV": 0.0,
+      "StyleName": "11% Pistachio and vanilla Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c2309f66-c1aa-4767-92b4-1ed98ac93214",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Airtight (w/ 3 Sons)",
+      "ABV": 0.0,
+      "StyleName": "11% Blueberry and chestnut Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7eb27d97-99fe-4414-8984-184ccc4a0bbb",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Five (w/ Soma Beer)",
+      "ABV": 0.0,
+      "StyleName": "4.4% Amarillo, Citra, Simcoe and Cascade Session IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0d5ce431-e6f4-4375-b2fb-c0ba3ae039ab",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Supercombi (w/ Other Half and Burial)",
+      "ABV": 0.0,
+      "StyleName": "8.6% Citra, Cashmere, Columbus, Simcoe and BRU-1 lactose DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3f886b2c-5339-404e-8ed0-54fa648dc57b",
+      "BreweryName": "Garage Beer Co",
+      "BeerName": "Passata Stix (w/ Verdant)",
+      "ABV": 0.0,
+      "StyleName": "9% Cashmere and BRU-1 DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fe18b290-217b-450e-b48d-fd8b60f49d05",
+      "BreweryName": "Gigantic",
+      "BeerName": "Kölschtastic",
+      "ABV": 0.0,
+      "StyleName": "5% Kölsch style beer",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "273f5a44-3db4-426d-8cf5-1b99710486d2",
+      "BreweryName": "Gigantic",
+      "BeerName": "Fantastic Voyage",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b23efc18-7377-40b5-82d0-72fd23fac1ec",
+      "BreweryName": "Gigantic",
+      "BeerName": "MASSIVE! Barleywine - Maple Syrup Barrel Aged",
+      "ABV": 0.0,
+      "StyleName": "14% Barley Wine aged in maple syrup barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d384daa5-06fb-40ff-80cb-1b53779ba6db",
+      "BreweryName": "Gigantic",
+      "BeerName": "Blackberry Bramble",
+      "ABV": 0.0,
+      "StyleName": "8% Blackberry beer inspired by the Bramble Cocktail chock full of Oregon blackberries and aged in Old Tom Gin Barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3f5e3676-8653-42d7-9847-b4b8328e3fd0",
+      "BreweryName": "Gigantic",
+      "BeerName": "Most Most Premium: 2019",
+      "ABV": 0.0,
+      "StyleName": "12.3%",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cfb6e7d7-9371-4f5c-9853-cd05cead48e5",
+      "BreweryName": "Gigantic",
+      "BeerName": "All Nighter (w/ Reuben's Brews)",
+      "ABV": 0.0,
+      "StyleName": "8% Imperial Mocha Stout with Madagascar vanilla beans, Kuma coffee, Demerara sugar and milk sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5616783c-f13d-4d9e-8907-522fb1ce151a",
+      "BreweryName": "Gipsy Hill",
+      "BeerName": "Moneybags",
+      "ABV": 0.0,
+      "StyleName": "10% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "47dd0b71-8a41-4113-a8c1-e85a97695e22",
+      "BreweryName": "Gipsy Hill",
+      "BeerName": "Outlooker",
+      "ABV": 0.0,
+      "StyleName": "5.4% Triple fruited sour with blackberry, raspberry and lingonberry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "35b2edc6-d612-4fd5-959c-33806fb54d32",
+      "BreweryName": "Gipsy Hill",
+      "BeerName": "Finzels (w/ Left Handed Giant)",
+      "ABV": 0.0,
+      "StyleName": "7.5% Sour IPA with mango, apricot, peach and milk sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b415a780-7248-4a5e-9507-0a1855711284",
+      "BreweryName": "Gipsy Hill",
+      "BeerName": "Metro",
+      "ABV": 0.0,
+      "StyleName": "5.5% New England Pale Ale brewed with Kohatu, El Dorado and Azacca",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "577ada76-6b73-4653-9a61-ddc3370411ff",
+      "BreweryName": "Green Bench",
+      "BeerName": "Never Late Festbier",
+      "ABV": 0.0,
+      "StyleName": "5.8% double-decocted, malty German-style Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6dd6ca4b-b996-4caf-9f7e-6070305bcfd2",
+      "BreweryName": "Green Bench",
+      "BeerName": "Feel The Love",
+      "ABV": 0.0,
+      "StyleName": "5.0% mixed-culture Saison with aged whole leaf hops",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "660d2219-94af-4770-ac45-735a7b6effa3",
+      "BreweryName": "Green Bench",
+      "BeerName": "Alice",
+      "ABV": 0.0,
+      "StyleName": "5.5% mixed-fermentation Golden Sour",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6a5e2cc7-f2ee-471e-9359-8f04cc39ae06",
+      "BreweryName": "Green Bench",
+      "BeerName": "Simple Fix",
+      "ABV": 0.0,
+      "StyleName": "5.5% mixed-fermentation Golden Sour aged on raspberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "41288ceb-b711-4e77-b857-b843b483fece",
+      "BreweryName": "Green Bench",
+      "BeerName": "Stargazing (w/ Cloudwater)",
+      "ABV": 0.0,
+      "StyleName": "4.5% hoppy mixed-culture Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b8bbd894-fd64-4b0d-b05c-519628964933",
+      "BreweryName": "Green Bench",
+      "BeerName": "Piwo",
+      "ABV": 0.0,
+      "StyleName": "3% Smoked Polish Light Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "08660752-152f-4110-8bf1-ecf482363ec0",
+      "BreweryName": "Green Bench",
+      "BeerName": "Hairy Wallpaper",
+      "ABV": 0.0,
+      "StyleName": "8% NE-style DIPA with Citra, Stata, and Hallertau Blanc",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e645c040-67fc-40e0-84f8-b30a2fcd80f0",
+      "BreweryName": "Green Bench",
+      "BeerName": "Blackberry Alice",
+      "ABV": 0.0,
+      "StyleName": "6.5% mixed-fermentation Golden Sour aged on blackberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2419eca1-40e0-41aa-8f4f-c98b45eadcf5",
+      "BreweryName": "Green Bench",
+      "BeerName": "Thrice Rice",
+      "ABV": 0.0,
+      "StyleName": "5.5% Witbier",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "27afdfa1-8440-4d34-b5c8-c8e82a9b277a",
+      "BreweryName": "Green Cheek",
+      "BeerName": "Always in Love",
+      "ABV": 0.0,
+      "StyleName": "8.0% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "159474e1-6ba0-42be-b435-752d7a197f28",
+      "BreweryName": "Green Cheek",
+      "BeerName": "Happily Deceased",
+      "ABV": 0.0,
+      "StyleName": "7.3% West Coast IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e32895c7-9068-4c28-848e-ea7fa7f71f2b",
+      "BreweryName": "Green Cheek",
+      "BeerName": "Swim Test",
+      "ABV": 0.0,
+      "StyleName": "10.2% TIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3efc1a2c-2d24-465c-852e-8f31aac26aea",
+      "BreweryName": "Green Cheek",
+      "BeerName": "Time Will Tell",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a4fa9ddb-2d3a-4687-b8e9-4dfcca6c2d80",
+      "BreweryName": "Green Cheek",
+      "BeerName": "Local Import",
+      "ABV": 0.0,
+      "StyleName": "5.8% Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "47666062-aeac-4de7-a4d7-b0ab93df94d2",
+      "BreweryName": "Green Cheek",
+      "BeerName": "Immaculate Confection",
+      "ABV": 0.0,
+      "StyleName": "12.5% Imperial Stout conditioned on vanilla beans and roasted hazelnuts",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ef425571-93bb-43d6-9779-7787b869acc1",
+      "BreweryName": "Green Cheek",
+      "BeerName": "Taste Of Happiness",
+      "ABV": 0.0,
+      "StyleName": "8.5% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7874721d-a1b0-4f53-a10d-3e82261d86b1",
+      "BreweryName": "Green Cheek",
+      "BeerName": "We're Listening",
+      "ABV": 0.0,
+      "StyleName": "5.6% Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c6dbc524-6a6e-4169-8122-c75d28730206",
+      "BreweryName": "Half Acre",
+      "BeerName": "Classic Future",
+      "ABV": 0.0,
+      "StyleName": "8.5% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ee3601d8-4d07-4243-87b8-a33afaf54821",
+      "BreweryName": "Half Acre",
+      "BeerName": "Rings",
+      "ABV": 0.0,
+      "StyleName": "6.6% foeder-aged Belgian Blonde refermented on peaches",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c49f2c99-09b1-4fba-bc66-0e2c60bc52ad",
+      "BreweryName": "Half Acre",
+      "BeerName": "Pony Pils",
+      "ABV": 0.0,
+      "StyleName": "5% Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "570511f9-d23c-4fbc-97fb-222571d8dc14",
+      "BreweryName": "Half Acre",
+      "BeerName": "Catch Hell",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a3eeb3fb-43ec-4b6c-a91f-7a7bdfc1772e",
+      "BreweryName": "Half Acre",
+      "BeerName": "Orin VSOP",
+      "ABV": 0.0,
+      "StyleName": "13.7% bourbon barrel-aged Strong Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "57fed41a-3cd2-4a6e-a9fd-71f0a3eb4043",
+      "BreweryName": "Half Acre",
+      "BeerName": "Bodem",
+      "ABV": 0.0,
+      "StyleName": "6.7% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c79abaa0-7fb3-48ae-9640-a58794b429e7",
+      "BreweryName": "Half Acre",
+      "BeerName": "Benthic",
+      "ABV": 0.0,
+      "StyleName": "bourbon barrel-aged Imperial Stout with coffee and toasted coconut",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "826935ed-297f-489f-93a4-b57887edc600",
+      "BreweryName": "Highland Park",
+      "BeerName": "Techni Flavor",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1963bdf0-7956-4700-8880-58809056d04b",
+      "BreweryName": "Highland Park",
+      "BeerName": "Past Future",
+      "ABV": 0.0,
+      "StyleName": "7% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dae20977-631d-4b5b-a7fb-a72e543bfa26",
+      "BreweryName": "Highland Park",
+      "BeerName": "Tonight, Tonight, Tonight",
+      "ABV": 0.0,
+      "StyleName": "9.5% Imperial Stout with coconut and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d6e0e8e1-219a-4c82-8128-cfbefaaccb6c",
+      "BreweryName": "Highland Park",
+      "BeerName": "Timbo Pils",
+      "ABV": 0.0,
+      "StyleName": "5.8% Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "82481989-b5ad-4b79-a574-d13a73b62438",
+      "BreweryName": "Jester King",
+      "BeerName": "SPON Grapefruit",
+      "ABV": 0.0,
+      "StyleName": "6% spontaneously-fermented ale refermented on grapefruit",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "284c49ae-cba9-4191-9e3a-31d01f3a1488",
+      "BreweryName": "Jester King",
+      "BeerName": "Moonshot (w/ Yazoo)",
+      "ABV": 0.0,
+      "StyleName": "5.7% spontaneously-fermented ale with rose hips and lemongrass",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1eaf49bd-3527-481a-9146-fb83c6bc4597",
+      "BreweryName": "Jester King",
+      "BeerName": "Das Uberkind",
+      "ABV": 0.0,
+      "StyleName": "6.5% Vieille Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9d5fb588-dd98-4e69-b4c3-eaeda763465e",
+      "BreweryName": "Jester King",
+      "BeerName": "SPON Cab Franc and Zinfandel",
+      "ABV": 0.0,
+      "StyleName": "7.5% spontaneously-fermented ale refermented on grapes",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "471f361f-792c-423e-8a07-990aadde55ee",
+      "BreweryName": "Jester King",
+      "BeerName": "Noble King",
+      "ABV": 0.0,
+      "StyleName": "5.9% farmhouse ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b4cd9e96-7a81-4ca9-9ab2-41a379ec122a",
+      "BreweryName": "Jester King",
+      "BeerName": "Moderne Dansk",
+      "ABV": 0.0,
+      "StyleName": "7.1% Wild Ale aged in Danish cherry wine barrels refermented with cherry juice",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "aa5188b5-63aa-4762-894d-47335e71022d",
+      "BreweryName": "Jester King",
+      "BeerName": "Soul Conduit",
+      "ABV": 0.0,
+      "StyleName": "3.8% Table Beer aged in gin barrels and refermented with dried makrut limes and thyme",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d517ae26-c365-4f8a-989c-c3d1fbdd356d",
+      "BreweryName": "Jester King",
+      "BeerName": "SPON Three Year Blend",
+      "ABV": 0.0,
+      "StyleName": "5.5% spontaneously-fermented ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4448de52-a8a2-4d3f-b835-19c4f65c9b2c",
+      "BreweryName": "Jester King",
+      "BeerName": "Snorkel",
+      "ABV": 0.0,
+      "StyleName": "4.5% farmhouse ale with smoked sea salt and oyster mushrooms",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0418edbf-dc90-4878-8f25-4808486c57b8",
+      "BreweryName": "Jester King",
+      "BeerName": "Farmhouse Lagered Beer",
+      "ABV": 0.0,
+      "StyleName": "5.5% lagered mixed-culture farmhouse ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f0845c26-853a-40b1-94b1-ef3531839971",
+      "BreweryName": "J Wakefield",
+      "BeerName": "Torbjorn (w/ Brewski)",
+      "ABV": 0.0,
+      "StyleName": "6% Fruited Berliner with dragonfruit, raspberries, lemon juice, lemon zest and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f861a656-137f-4384-972b-978bfb59c75a",
+      "BreweryName": "J Wakefield",
+      "BeerName": "I Believe In A Thing Called Stout (w/ Other Half)",
+      "ABV": 0.0,
+      "StyleName": "12% Imperial Stout with almonds, coconut, and cacao nibs",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "56b9b44a-9e54-4eb1-ab56-b47af97419fb",
+      "BreweryName": "J Wakefield",
+      "BeerName": "BA Miami Rainbows (w/ Phase Three)",
+      "ABV": 0.0,
+      "StyleName": "12% barrel-aged Imperial Stout with chocolate, strawberry and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "05ac2b21-de7c-4417-80da-769620cd96cd",
+      "BreweryName": "J Wakefield",
+      "BeerName": "BA The Man With The Golden Churro",
+      "ABV": 0.0,
+      "StyleName": "14% Imperial Stout with coffee, hazelnuts, cinnamon, cocoa nibs, and marshmallows",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d457244a-cfc3-4f69-8dd2-18e0efae47ce",
+      "BreweryName": "J Wakefield",
+      "BeerName": "BA Making Whoopie (w/ Barreled Souls)",
+      "ABV": 0.0,
+      "StyleName": "12% barrel-aged Imperial Stout with banana, chocolate and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "12847bea-baba-4464-bda0-218e19940c9f",
+      "BreweryName": "J Wakefield",
+      "BeerName": "Sinister Sixth (w/ Bottle Logic)",
+      "ABV": 0.0,
+      "StyleName": "12% rye bourbon barrel-aged Imperial Stout with coconut and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "22a4c1a8-0068-4d34-a76b-5cf060868423",
+      "BreweryName": "J Wakefield",
+      "BeerName": "Bonzer",
+      "ABV": 0.0,
+      "StyleName": "7% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "51a0bfe8-1878-4e05-9665-2c882f1604ed",
+      "BreweryName": "J Wakefield",
+      "BeerName": "Otagoffa (w/ Trillium)",
+      "ABV": 0.0,
+      "StyleName": "13% Imperial Stout with coffee, vanilla, lactose, and brown sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ed41b33c-e217-46e1-b94e-70289b8c83ae",
+      "BreweryName": "Kernel",
+      "BeerName": "Foeder Lager",
+      "ABV": 0.0,
+      "StyleName": "4.6% Foeder fermented lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "64400e59-4e61-4640-bf9e-b2bac58f8b30",
+      "BreweryName": "Kernel",
+      "BeerName": "Biere de Saison Cider Apple",
+      "ABV": 0.0,
+      "StyleName": "4.9% Mixed culture saison with wort fermented spontaneously on whole apples from Tom Oliver, blended with saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "94033c33-8d87-42a0-bdc5-716419401113",
+      "BreweryName": "Kernel",
+      "BeerName": "Table Beer",
+      "ABV": 0.0,
+      "StyleName": "2.9% Table Beer",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "76a2216d-fd8d-4e44-aeab-9786f9cc397c",
+      "BreweryName": "Kernel",
+      "BeerName": "Biere de Saison Quince",
+      "ABV": 0.0,
+      "StyleName": "4.7% Mixed culture saison with wort fermented spontaneously on whole quinces, blended with saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "47d7dafb-2e9b-4b28-b90c-42dddec6dab6",
+      "BreweryName": "Kernel",
+      "BeerName": "India Pale Ale Nelson Sauvin",
+      "ABV": 0.0,
+      "StyleName": "7.1% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ea338a88-096a-4803-8a4f-fb250893c5dd",
+      "BreweryName": "Kernel",
+      "BeerName": "Biere de Saison Goldings",
+      "ABV": 0.0,
+      "StyleName": "5% Mixed fermentation saison, barrel aged and dry hopped",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c61fcf45-df1d-4802-9acf-092317946131",
+      "BreweryName": "Left Handed Giant",
+      "BeerName": "Go Ahead",
+      "ABV": 0.0,
+      "StyleName": "5% Fruited Sour with raspberry and rhubarb",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9b9339d5-24d1-4bd2-bc53-e8f9c1ee74e1",
+      "BreweryName": "Left Handed Giant",
+      "BeerName": "Making Planets",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cf58f729-2d11-49a8-af69-4951c925ce2f",
+      "BreweryName": "Left Handed Giant",
+      "BeerName": "Opening Theme",
+      "ABV": 0.0,
+      "StyleName": "6.5% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e9771301-15db-4114-82d0-02079931fe43",
+      "BreweryName": "Left Handed Giant",
+      "BeerName": "Up Late",
+      "ABV": 0.0,
+      "StyleName": "10% Imperial Stout with hazelnut and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "06c43ef5-b455-4788-8c46-81432f2f9310",
+      "BreweryName": "Left Handed Giant",
+      "BeerName": "North Nights",
+      "ABV": 0.0,
+      "StyleName": "9.5% Imperial Stout with pecan and cinder toffee",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a2823f02-c57e-41af-a6cf-dbebf357009b",
+      "BreweryName": "Lervig",
+      "BeerName": "EASY",
+      "ABV": 0.0,
+      "StyleName": "4,5% Double Dry Hopped Citra and Mosaic Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6852b71c-8670-4009-833f-17084a591444",
+      "BreweryName": "Lervig",
+      "BeerName": "Yuzu Raga (w/ Shiga Kogen)",
+      "ABV": 0.0,
+      "StyleName": "5.5% Lager with yuzu fruit",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "11a15421-d671-430a-9c55-b187dca13aed",
+      "BreweryName": "Lervig",
+      "BeerName": "Franconian Haze (w/ Mahrs Brau)",
+      "ABV": 0.0,
+      "StyleName": "5.5% Festweizen",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6f0024ea-a284-44ba-9d3a-4ecd3e3abc78",
+      "BreweryName": "Lervig",
+      "BeerName": "Tasty Juice",
+      "ABV": 0.0,
+      "StyleName": "6% Citra IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "192a10ef-c97f-4af0-af7b-f01a3933fc4a",
+      "BreweryName": "Lervig",
+      "BeerName": "Supersonic",
+      "ABV": 0.0,
+      "StyleName": "8,5% Double Dry Hopped DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3ad50765-c726-4241-9a4b-5f2a708f5201",
+      "BreweryName": "Lervig",
+      "BeerName": "Kanelsnegle",
+      "ABV": 0.0,
+      "StyleName": "12% Sticky Cinnamon Bun Stout with vanilla, maple and bacon flavour",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "580c0b64-be75-4ac4-b786-417c9a180cd7",
+      "BreweryName": "Lervig",
+      "BeerName": "Coconuts",
+      "ABV": 0.0,
+      "StyleName": "12% Imperial Stout with maple and coconut",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5debc218-f4bb-4cb5-b963-5fbd0d0b565f",
+      "BreweryName": "Lervig",
+      "BeerName": "Rum barrel-aged 3 Bean Stout",
+      "ABV": 0.0,
+      "StyleName": "13.4% Imperial Stout with cocoa, vanilla and tonka bean",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "42794e76-f086-4931-89ff-a59cea3c3c48",
+      "BreweryName": "Lost And Grounded",
+      "BeerName": "Keller Pils",
+      "ABV": 0.0,
+      "StyleName": "4.8% Unfiltered Pilsner",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "914ed7b5-3a03-4943-9811-e7320c3eeda6",
+      "BreweryName": "Lost And Grounded",
+      "BeerName": "All the Cool Cats",
+      "ABV": 0.0,
+      "StyleName": "5.1% Unfiltered Helles/Kellerbier",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "16e12ee5-2310-4f3c-a2f8-1af4485c00e6",
+      "BreweryName": "Lost And Grounded",
+      "BeerName": "Running with Sceptres",
+      "ABV": 0.0,
+      "StyleName": "5.2% India Pale Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8f6f22da-0ad2-4f49-b3e6-9c80015b2f5a",
+      "BreweryName": "Lost And Grounded",
+      "BeerName": "Altogether Elsewhere",
+      "ABV": 0.0,
+      "StyleName": "5% Czech-style Pils",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e49e0090-5ee3-42a6-8966-129b0a6f2ce5",
+      "BreweryName": "Marble",
+      "BeerName": "Sky High",
+      "ABV": 0.0,
+      "StyleName": "7.1% Mountain IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f46e6a04-800c-4448-b4ac-2cf33c6a8c62",
+      "BreweryName": "Marble",
+      "BeerName": "Imperial Chocolate, Barrel Aged on Candied Orange",
+      "ABV": 0.0,
+      "StyleName": "11% wild Stout barrel-aged on chocolate liqueur and candied oranges",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "edea5ff9-441c-44a9-85ee-af31da5ac273",
+      "BreweryName": "Marble",
+      "BeerName": "Port Barrel Aged Decadence",
+      "ABV": 0.0,
+      "StyleName": "10.5% Port Barrel Aged Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0ff9d614-537f-4f62-9093-2280b636f791",
+      "BreweryName": "Marble",
+      "BeerName": "Chocolate and Hazelnut Imperial Sout",
+      "ABV": 0.0,
+      "StyleName": "12.2% Chocolate and hazelnut Imperial Stout with lactose",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "552f2ee5-ef4b-4541-bac3-5c2788828d99",
+      "BreweryName": "Marble",
+      "BeerName": "Amontillado Barrel Aged Wild Barley Wine",
+      "ABV": 0.0,
+      "StyleName": "12.4% wild Barley Wine aged in first fill Amontillado cask",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d0131702-6b46-46af-9514-983197b77853",
+      "BreweryName": "Mikkeller",
+      "BeerName": "SpontanCherry Frederiskdal 2020",
+      "ABV": 0.0,
+      "StyleName": "7.5% Lambic style sour ale, with Danish Frederisksdal Cherries, aged in oak barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "629806ec-c402-4262-99fa-02cc92285515",
+      "BreweryName": "Mikkeller",
+      "BeerName": "Beer Geek Fudgesicle",
+      "ABV": 0.0,
+      "StyleName": "12% Imperial Stout, brewed with cocoa, vanilla, lactose and butterscotch",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "60a31037-241a-4196-93d0-85a402fce16b",
+      "BreweryName": "Mikkeller",
+      "BeerName": "Beer Geek Observation (w/ Bottle Logic)",
+      "ABV": 0.0,
+      "StyleName": "13% barrel-aged Imperial Stout with vanilla and coffee",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "934e1aab-31db-4616-bb34-1bcd3c5f1bd9",
+      "BreweryName": "Mikkeller",
+      "BeerName": "Vesterbro Chinese Food (w/ Mission Chinese)",
+      "ABV": 0.0,
+      "StyleName": "4.5% Lager with szechuan pepper",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4bdefe0a-7ea0-4849-8e5e-d07298542960",
+      "BreweryName": "Mikkeller",
+      "BeerName": "SpontanPentadruppleBlueberry",
+      "ABV": 0.0,
+      "StyleName": "9.9% Lambic-style ale with 2.5kg of blueberry per litre",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d0212faf-7a93-4d86-8dc8-e6c0cfb6eab5",
+      "BreweryName": "Mikkeller",
+      "BeerName": "Careless Island Affair (w/ Mikkeller NYC and 7 Island)",
+      "ABV": 0.0,
+      "StyleName": "8% DDH DIPA with Citra, Mosaic & Wai’iti Hops and lactose",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7f42b03a-35b6-4860-a12e-6ed722ef262f",
+      "BreweryName": "Mikkeller",
+      "BeerName": "SpontanHexadruppleRaspberry",
+      "ABV": 0.0,
+      "StyleName": "9% Lambic style ale with 3kg of Raspberry per litre, aged in oak barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "73665b82-676a-4951-9302-55143cb89a7c",
+      "BreweryName": "Modern Times",
+      "BeerName": "Logical Journey",
+      "ABV": 0.0,
+      "StyleName": "4.8% oak-smoked Helles",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "646a442c-fad6-4d5f-83ab-440b2eceae19",
+      "BreweryName": "Modern Times",
+      "BeerName": "Mindful Education",
+      "ABV": 0.0,
+      "StyleName": "7.1% crushable IPA with Galaxy, Strata, Nelson and Mosaic",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ccf376e7-65a5-46f3-b6fe-49dfa635ebac",
+      "BreweryName": "Modern Times",
+      "BeerName": "Mythic Worlds",
+      "ABV": 0.0,
+      "StyleName": "7.6% Galaxy IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "de9e5c77-3340-473c-8eba-955ce72332e7",
+      "BreweryName": "Modern Times",
+      "BeerName": "Chaos Grid: Super Vanilla",
+      "ABV": 0.0,
+      "StyleName": "13.5% Imperial Stout blend with a ton of vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cd3a6fe0-c88e-4c4e-a541-cc88fe563e57",
+      "BreweryName": "Modern Times",
+      "BeerName": "Monsters' Park: Espresso Macaroon",
+      "ABV": 0.0,
+      "StyleName": "14.2% bourbon barrel-aged Imperial Stout with coconut and Guardian Spirit coffee",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8c40eb4a-9f1d-444c-ab73-74bb5eafa282",
+      "BreweryName": "Modern Times",
+      "BeerName": "Dragon Mask aged in maple bourbon barrels",
+      "ABV": 0.0,
+      "StyleName": "13.5% Imperial Stout aged in maple bourbon barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f45f4ada-ad2a-444a-9a57-bf9329b43bed",
+      "BreweryName": "Monkish",
+      "BeerName": "Foggy Window",
+      "ABV": 0.0,
+      "StyleName": "8.1% DIPA with Nelson, Galaxy and Citra",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4defa597-77c4-4673-95ec-a71acbe6ff6e",
+      "BreweryName": "Monkish",
+      "BeerName": "Kick Knowledge",
+      "ABV": 0.0,
+      "StyleName": "8.2% Double Dry Hopped DIPA with Motueka, Cashmere,Galaxy and Citra",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7654a027-34ee-403a-addb-c485d1e39e5e",
+      "BreweryName": "Monkish",
+      "BeerName": "Doobely Zoo",
+      "ABV": 0.0,
+      "StyleName": "8.2% Triple Dry Hopped DIPA with Galaxy and Mosaic",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c9fa8e8c-b696-4ee4-ad23-b8a781a09802",
+      "BreweryName": "Monkish",
+      "BeerName": "Planets Gotta Roll",
+      "ABV": 0.0,
+      "StyleName": "8.3% Double Dry Hopped DIPA with Galaxy",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7f781d5c-48ed-4a3f-96fb-861655531f8b",
+      "BreweryName": "Monkish",
+      "BeerName": "Glamour, Glitters & Gold",
+      "ABV": 0.0,
+      "StyleName": "8.3% Double Dry Hopped DIPA with Citra",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8f43c2d1-4b56-4715-b237-745c69708c7f",
+      "BreweryName": "Monkish",
+      "BeerName": "Amaze and Blaze",
+      "ABV": 0.0,
+      "StyleName": "8.5% Triple Dry Hopped DIPA with Nelson Sauvin",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8008f403-5559-4b23-bbe2-818a11591729",
+      "BreweryName": "Monkish",
+      "BeerName": "Wrapped Like Mummy",
+      "ABV": 0.0,
+      "StyleName": "10.1% TIPA with Citra, Nelson Sauvin, Mosaic and Galaxy",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "82fdcbb4-25ce-451f-9914-4d728e851632",
+      "BreweryName": "Brasserie Du Mont Saleve",
+      "BeerName": "Bière Sour Raisin",
+      "ABV": 0.0,
+      "StyleName": "7.5% Sour beer macerated with Syrah & Grenache grape",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c0dae850-7a29-4887-9cae-b1ef985c94dd",
+      "BreweryName": "Brasserie Du Mont Saleve",
+      "BeerName": "Barley Wine",
+      "ABV": 0.0,
+      "StyleName": "10.5% Barrel aged Barley Wine",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fd5e34b9-f89d-44bc-8e41-33a7f4ba5d4e",
+      "BreweryName": "Brasserie Du Mont Saleve",
+      "BeerName": "Force Jaune",
+      "ABV": 0.0,
+      "StyleName": "6% Blend of blonde beers barrel aged for 36 months",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c04a17b3-0092-4056-ad27-200187cb67f2",
+      "BreweryName": "Brasserie Du Mont Saleve",
+      "BeerName": "Blonde sur Lies de Chardonnay",
+      "ABV": 0.0,
+      "StyleName": "6% Barrel aged blonde on Chardonnay lees",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "012db614-4dcd-4411-a52b-6c4873bc2d00",
+      "BreweryName": "Brasserie Du Mont Saleve",
+      "BeerName": "Nouveaux Mondes",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "468875f7-a0c9-4c84-b426-fbad0e599230",
+      "BreweryName": "Northern Monk",
+      "BeerName": "Double Mango Lassi Heathen",
+      "ABV": 0.0,
+      "StyleName": "8.8% Milkshake DIPA with mango",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a0b5756c-b66b-48c7-a578-ec8584d2755b",
+      "BreweryName": "Northern Monk",
+      "BeerName": "Everyday Abstract",
+      "ABV": 0.0,
+      "StyleName": "7.2% DDH IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "56e9e355-3006-4f10-bd01-1812d2353aa4",
+      "BreweryName": "Northern Monk",
+      "BeerName": "Operation Phat Stacks (w/ Slim Pickens)",
+      "ABV": 0.0,
+      "StyleName": "10.5% bourbon barrel-aged Imperial Stout with marshmallow, wildflower honey, maple syrup and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "12a5eba8-9c28-431b-818a-be147c5feae4",
+      "BreweryName": "Northern Monk",
+      "BeerName": "Culinary Concepts Ice Cream (w/ HOMES and Ology)",
+      "ABV": 0.0,
+      "StyleName": "7.0% Fruited Sour IPA with raspberry, guava, passion fruit and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "722ef062-c099-4e16-9cc3-ae61881588d0",
+      "BreweryName": "Northern Monk",
+      "BeerName": "BA Smoking Bees (w/ Against The Grain)",
+      "ABV": 0.0,
+      "StyleName": "10.0% imperial whisky smoked honey Porter",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c1cab83f-e789-4e2b-855d-02cb7bdbdbf9",
+      "BreweryName": "Northern Monk",
+      "BeerName": "Astro Black",
+      "ABV": 0.0,
+      "StyleName": "14.0% Imperial",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "568192c0-a8db-4155-a4e5-071c5e0a4c9f",
+      "BreweryName": "Northern Monk",
+      "BeerName": "Heaven",
+      "ABV": 0.0,
+      "StyleName": "11.0% bourbon barrel-aged Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1947f0b7-793a-4fd7-b15f-e707dce98102",
+      "BreweryName": "Odell",
+      "BeerName": "Drumroll",
+      "ABV": 0.0,
+      "StyleName": "5.3% Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0186f255-a7b7-4f0b-8ce5-b8dde401fd12",
+      "BreweryName": "Odell",
+      "BeerName": "Mountain Standard",
+      "ABV": 0.0,
+      "StyleName": "6.5% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "735a77ee-43ce-4a8e-88b4-f7a338c8a181",
+      "BreweryName": "Odell",
+      "BeerName": "Onolicious",
+      "ABV": 0.0,
+      "StyleName": "6.5% Tropical Sour",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "57773217-59ee-49ca-9892-51ad6d70707e",
+      "BreweryName": "Odell",
+      "BeerName": "Friek 2018",
+      "ABV": 0.0,
+      "StyleName": "6.9% oak-aged raspberry and cherry Sour Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e5bcb3b8-898c-47aa-ac87-d11c87751da4",
+      "BreweryName": "Odell",
+      "BeerName": "180 Shilling Ale",
+      "ABV": 0.0,
+      "StyleName": "9.9% oak-aged Imperial Amber Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "afb304fc-e90c-4b19-98cc-00ffaa22f745",
+      "BreweryName": "Odell",
+      "BeerName": "Jolly Russian 2016",
+      "ABV": 0.0,
+      "StyleName": "13% rum barrel-aged Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "06b807ba-8a9f-4eeb-8956-8cbc600b8e88",
+      "BreweryName": "Oliver’S",
+      "BeerName": "Oliver's Wild Farmhouse Cider",
+      "ABV": 0.0,
+      "StyleName": "6.5% Spontaneously fermented cider",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7a351e44-24c1-4af7-aaaa-f0f759761bcc",
+      "BreweryName": "Oliver’S",
+      "BeerName": "Oliver's Rolling Pomona Cider",
+      "ABV": 0.0,
+      "StyleName": "6.8% Sparkling cider",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cb2a04f8-944e-4796-b4a0-a61039d91d52",
+      "BreweryName": "Oliver’S",
+      "BeerName": "Oliver's Fine Perry",
+      "ABV": 0.0,
+      "StyleName": "6% Sparkling perry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "37376f8b-3759-462f-81c8-ba9b92c9ba00",
+      "BreweryName": "Omnipollo",
+      "BeerName": "Mads No Bake Carrot Cake",
+      "ABV": 0.0,
+      "StyleName": "12% Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "92d37be2-3270-4c61-8ab5-223c1b43fcb7",
+      "BreweryName": "Omnipollo",
+      "BeerName": "Lorelei Coconut Maple Toast",
+      "ABV": 0.0,
+      "StyleName": "10.5% Imperial Porter with toasted coconut and maple syrup",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "78e52cea-03a9-4b80-974c-f24157688dbf",
+      "BreweryName": "Omnipollo",
+      "BeerName": "Aon Glenmorangie 10yo Select Barrel Blend",
+      "ABV": 0.0,
+      "StyleName": "15% Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b472c98c-e66d-4f0c-9f78-9ade4a025327",
+      "BreweryName": "Omnipollo",
+      "BeerName": "Mango Orange Passionfruit Crème Brulee Sour",
+      "ABV": 0.0,
+      "StyleName": "6% Sour with mango, orange, passion fruit, vanilla and milk sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "42a6b210-4230-4c9c-a512-cbc9d9a1552d",
+      "BreweryName": "Omnipollo",
+      "BeerName": "Abjad Citra Wai-iti",
+      "ABV": 0.0,
+      "StyleName": "7.3%",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "40aa8efa-cb11-4f9c-8446-8a97515f2348",
+      "BreweryName": "Omnipollo",
+      "BeerName": "Anagram Blueberry Cheesecake Stout",
+      "ABV": 0.0,
+      "StyleName": "12%",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cca31cd0-6944-4077-a0dc-2d104d137728",
+      "BreweryName": "Omnipollo",
+      "BeerName": "Mimmi Mimosa",
+      "ABV": 0.0,
+      "StyleName": "7% Sour with lemon peel and orange juice",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "34cad161-f234-4d04-b726-259433587623",
+      "BreweryName": "Omnipollo",
+      "BeerName": "BA Scelerisque",
+      "ABV": 0.0,
+      "StyleName": "10% Imperial chocolate sauce stout barrel aged for 21 months",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d30c7a10-08b5-4f99-9a1a-52c37dae6553",
+      "BreweryName": "Other Half",
+      "BeerName": "! (Exclamation Point)",
+      "ABV": 0.0,
+      "StyleName": "8.3% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "427b28d1-bf2a-44d8-87b8-a3fdd25f543a",
+      "BreweryName": "Other Half",
+      "BeerName": "El Camino Misfires (w/ Hoof Hearted)",
+      "ABV": 0.0,
+      "StyleName": "5% Berliner Weisse with coffee, vanilla and raspberry",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a0cdc89b-c09d-4ac2-ab04-296d1991feb4",
+      "BreweryName": "Other Half",
+      "BeerName": "Blowin Up The Spot (w/ Monkish)",
+      "ABV": 0.0,
+      "StyleName": "10.2% TIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "50299bf4-11a4-4fbd-bb88-cc9b952c0bb6",
+      "BreweryName": "Other Half",
+      "BeerName": "DDH ROC Showers",
+      "ABV": 0.0,
+      "StyleName": "7.4% IPA with Citra and Motueka",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dd6f62a7-83eb-4d37-aa63-dcddc6d7f56f",
+      "BreweryName": "Other Half",
+      "BeerName": "Small Motueka Everything",
+      "ABV": 0.0,
+      "StyleName": "6.5% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "12c87239-d246-4721-a9e0-27dd00824c01",
+      "BreweryName": "Other Half",
+      "BeerName": "HDHC Quadrangle Test (w/ Trillium)",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "16ca7c40-d94f-4d6d-9eaf-5226a53355c8",
+      "BreweryName": "Other Half",
+      "BeerName": "Bristol Mountain High",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4a98a117-6b02-4510-83a5-eb4c6cd82018",
+      "BreweryName": "Other Half",
+      "BeerName": "City Slickers (w/ Arizona Wilderness)",
+      "ABV": 0.0,
+      "StyleName": "6.8% IPA with lemon zest and Arizona prickly pear",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bbbe5373-24c9-43f8-952f-ad1860b872f3",
+      "BreweryName": "Other Half",
+      "BeerName": "DDH Double Mosaic Dream",
+      "ABV": 0.0,
+      "StyleName": "8.3% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "94ec18a0-a8b4-4df9-bbbd-728c10f14a39",
+      "BreweryName": "Other Half",
+      "BeerName": "DDH Powdered Cheese (w/ 18th Street)",
+      "ABV": 0.0,
+      "StyleName": "8.5% Double Dry Hopped DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ef8e468b-2382-4b34-b15a-35c22c19570f",
+      "BreweryName": "Other Half",
+      "BeerName": "Bananaversary",
+      "ABV": 0.0,
+      "StyleName": "15% Imperial Stout with bananas, coconut, macadamia nuts, toasted coconut and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "af641aa1-6fa3-4d1c-b8c6-9e40fccd60f4",
+      "BreweryName": "Other Half",
+      "BeerName": "Nummy Nug Nug (w/ Industrial Arts)",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA with peach juice",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b43e2a87-f025-4f12-b8f5-c72f73a2d01a",
+      "BreweryName": "Other Half",
+      "BeerName": "All 6th Anniversary Imperial Stout",
+      "ABV": 0.0,
+      "StyleName": "15% Imperial Stout with almonds, cacao nibs, cinnamon, lactose, maple, peanut butter, toasted coconut and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c60aa0cd-6fc2-4546-b8b5-4b685693d8e7",
+      "BreweryName": "Salopian",
+      "BeerName": "Paper Planes",
+      "ABV": 0.0,
+      "StyleName": "4.6% Session New England IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "51706bac-b862-4b83-9b61-8bf528b1ab82",
+      "BreweryName": "Salopian",
+      "BeerName": "Darwin's Origin",
+      "ABV": 0.0,
+      "StyleName": "4.3% Best Bitter",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "0004ae05-b499-4ce2-b459-9264f6d8a688",
+      "BreweryName": "Salopian",
+      "BeerName": "Bulletproof",
+      "ABV": 0.0,
+      "StyleName": "5.8% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1ed7081d-f157-4f39-b665-6a6e6bdd770d",
+      "BreweryName": "Salopian",
+      "BeerName": "Tranquilizer",
+      "ABV": 0.0,
+      "StyleName": "7.2% Fruit IPA (v)",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e146c4c6-6861-478e-bf28-14d709e2e6f4",
+      "BreweryName": "Siren",
+      "BeerName": "Azaccattack",
+      "ABV": 0.0,
+      "StyleName": "6.1% Azacca IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c768c12a-89f0-4583-9754-6151e4e6ec36",
+      "BreweryName": "Siren",
+      "BeerName": "Refractions",
+      "ABV": 0.0,
+      "StyleName": "4.2% Session IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b1b9f733-31ce-4a02-b2f5-4779654a01a8",
+      "BreweryName": "Siren",
+      "BeerName": "The Abyssal Zone (w/ Salt Beer Factory)",
+      "ABV": 0.0,
+      "StyleName": "10.5% Baltic Porter",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7f0ab2b7-6354-4d42-b8d4-97e7c026d164",
+      "BreweryName": "Siren",
+      "BeerName": "Caribbean Chocolate Cake (w/ Cigar City)",
+      "ABV": 0.0,
+      "StyleName": "7.4% Tropical Stout with cacao nibs and cypress wood",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c071b26c-7c27-4240-9857-160d51cff329",
+      "BreweryName": "Siren",
+      "BeerName": "Barrel Aged Caribbean Chocolate Cake (w/ Cigar City)",
+      "ABV": 0.0,
+      "StyleName": "9.4% Tropical Stout aged in Bourbon barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "60cddc06-6d19-4e86-be5e-3086109ec1a2",
+      "BreweryName": "Siren",
+      "BeerName": "Dark & Perilous Nights (w/ J. Wakefield)",
+      "ABV": 0.0,
+      "StyleName": "12.4% Barrel aged Imperial Dark Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "85ba1a0e-0c2a-4610-b7ec-77daae5407a3",
+      "BreweryName": "Six°North",
+      "BeerName": "HopHarvest",
+      "ABV": 0.0,
+      "StyleName": "5% Fresh Hop Blonde Ale with Pioneer hops",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "20b37fb7-9808-4f7a-a1bd-a8b072fd1579",
+      "BreweryName": "Six°North",
+      "BeerName": "Cadence (w/ Donzoko)",
+      "ABV": 0.0,
+      "StyleName": "4.7% Keller Pils with Hallertau Blanc",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "aa0ef955-ad63-4b6a-bdca-1123f5d1a26d",
+      "BreweryName": "Six°North",
+      "BeerName": "Saison du Collines (w/ BrewDog Overworks)",
+      "ABV": 0.0,
+      "StyleName": "6.3% Fruit Saison with foraged heather, rowan berries, rosehip and a single crab apple",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5e457eda-72c3-4bba-871f-8d2d4bb699be",
+      "BreweryName": "Six°North",
+      "BeerName": "Inertia",
+      "ABV": 0.0,
+      "StyleName": "10% Imperial Stout with Trappist yeast",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b94411a3-550b-4bc9-a8c9-da4c4aa8e05a",
+      "BreweryName": "Six°North",
+      "BeerName": "Inhale (w/ Salt Beer Factory)",
+      "ABV": 0.0,
+      "StyleName": "6% Berliner Weisse",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bf6ba134-84cb-48ed-acc1-1b4cc7b0ac0c",
+      "BreweryName": "Six°North",
+      "BeerName": "Exhale (w/ Salt Beer)",
+      "ABV": 0.0,
+      "StyleName": "6% Barrel aged Gose from barrels aged in the North Sea",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a1921a12-3ce7-43af-8f6d-1a6d5dc69b3d",
+      "BreweryName": "Sonnen Hill",
+      "BeerName": "Lager Beer",
+      "ABV": 0.0,
+      "StyleName": "4.8% Helles",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "61c985ee-304a-4fbf-9855-87f2ae93dabc",
+      "BreweryName": "Sonnen Hill",
+      "BeerName": "Zigler Pils",
+      "ABV": 0.0,
+      "StyleName": "4.5% Unfiltered German-style pils",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e4d56b60-61ee-4606-acfd-5d2146b9e1ae",
+      "BreweryName": "Sonnen Hill",
+      "BeerName": "Pale Beer",
+      "ABV": 0.0,
+      "StyleName": "4.5% Blended hoppy grisette",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "35dd489a-e27d-4836-a13a-b35d23d88851",
+      "BreweryName": "Sonnen Hill",
+      "BeerName": "So & So",
+      "ABV": 0.0,
+      "StyleName": "4.2% Oak-fermented hoppy saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fd0f38cc-151b-40f2-9fc0-ad113160f0ca",
+      "BreweryName": "Sonnen Hill",
+      "BeerName": "Pollen",
+      "ABV": 0.0,
+      "StyleName": "3.8% Dandelion saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ee3b020d-bb57-4a65-9479-21484d7cfc8b",
+      "BreweryName": "Sonnen Hill",
+      "BeerName": "Standard",
+      "ABV": 0.0,
+      "StyleName": "4.5% Oak-aged grisette",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "10fa901c-0573-481c-bb04-a09ca9b66e20",
+      "BreweryName": "Stigbergets",
+      "BeerName": "Flamingo Juice",
+      "ABV": 0.0,
+      "StyleName": "5% Gose with mango and black pepper",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "19cb3f8d-0a97-41bf-970f-a473a1edd7f6",
+      "BreweryName": "Stigbergets",
+      "BeerName": "Go Figure!",
+      "ABV": 0.0,
+      "StyleName": "8% Doppelbock",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fd4eace7-9275-4435-b7ff-40843975a3f1",
+      "BreweryName": "Stigbergets",
+      "BeerName": "Stålverket (w/ All In)",
+      "ABV": 0.0,
+      "StyleName": "9.5% Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e07b5388-4387-46c0-97c1-aa66aa79c67c",
+      "BreweryName": "Stigbergets",
+      "BeerName": "Cuddle Monster",
+      "ABV": 0.0,
+      "StyleName": "4.4% Helles Lager",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "940ab39f-1d4e-4ec4-b07e-8335d5ab617e",
+      "BreweryName": "Stigbergets",
+      "BeerName": "American Pale Ale",
+      "ABV": 0.0,
+      "StyleName": "5.2% Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f8634009-520e-411c-a191-46afc637eb93",
+      "BreweryName": "Stillwater",
+      "BeerName": "Stillwater Stateside Saison",
+      "ABV": 0.0,
+      "StyleName": "6.8% Dry Hopped Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "deb585bc-c801-47b1-832a-2ff4b7643cb3",
+      "BreweryName": "Stillwater",
+      "BeerName": "Stillwater On Fleek",
+      "ABV": 0.0,
+      "StyleName": "13% Imperial Stout with dark sugar and molasses",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "03978200-740c-49a1-97a9-d02a459ce67d",
+      "BreweryName": "Stillwater",
+      "BeerName": "Stillwater Action Bronson",
+      "ABV": 0.0,
+      "StyleName": "5% Dry Hopped Sour Ale with muscat grapes",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d0042212-4595-4b84-9d6b-79a137d89560",
+      "BreweryName": "Stillwater",
+      "BeerName": "Stillwater Kung Pao",
+      "ABV": 0.0,
+      "StyleName": "11.0% Imperial Stout with chilli powder, ginger powder, Sichuan pepper powder, sea salt and peanut extract",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "95530256-5af1-4930-bfbd-b25f1209091f",
+      "BreweryName": "Stillwater",
+      "BeerName": "Stillwater Extra Dry",
+      "ABV": 0.0,
+      "StyleName": "4.2% Sake-style Saison",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "32e778fd-d89e-4bbf-92e3-cec092c961a2",
+      "BreweryName": "Stillwater",
+      "BeerName": "Stillwater Duck Sauce",
+      "ABV": 0.0,
+      "StyleName": "9.0% DIPA qith apricot, plum, pineapple, ginger and candi syrup",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d1642d1a-a0ce-4e33-91bb-0e46df4156cd",
+      "BreweryName": "Three Chiefs",
+      "BeerName": "Rat Race DIPA",
+      "ABV": 0.0,
+      "StyleName": "9% Double India Pale Ale dry hopped with Mosaic, Citra and Cashmere with lactose added",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3a33c246-b34e-483b-8d73-0023e0355459",
+      "BreweryName": "Three Chiefs",
+      "BeerName": "Midwestern Shaka",
+      "ABV": 0.0,
+      "StyleName": "6% Berliner Weisse brewed with Passionfruit, Peach and Calamansi with lactose added",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b425120d-ea87-45ce-9d80-13c66cbdd9db",
+      "BreweryName": "Three Chiefs",
+      "BeerName": "Maple FÅHÅ",
+      "ABV": 0.0,
+      "StyleName": "13.7% Barrel Aged Imperial Stout brewed with maple and coconut candy",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "982fbad2-0b4b-4298-9157-13fd9c2c06bc",
+      "BreweryName": "Three Chiefs",
+      "BeerName": "Shortcake Noir",
+      "ABV": 0.0,
+      "StyleName": "15.4% Barrel Aged Imperial Stout brewed with strawberries and cacao nibs",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "091a98bb-3f35-4776-b537-1b3f97d15a83",
+      "BreweryName": "Tilquin",
+      "BeerName": "Gueuze Tilquin - Draft Version",
+      "ABV": 0.0,
+      "StyleName": "5.3% Gueuze",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a41201ec-2c7a-4ea0-9755-66d85d05ecef",
+      "BreweryName": "Tilquin",
+      "BeerName": "Quetsche Tilquin - Draft Version",
+      "ABV": 0.0,
+      "StyleName": "5.3% Fruited Lambic with plums",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8d5b77e5-dd4e-440c-b3dd-a5111378eeec",
+      "BreweryName": "Tilquin",
+      "BeerName": "Mûre Tilquin - Draft Version",
+      "ABV": 0.0,
+      "StyleName": "4.8% Fruited Lambic with blackberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b10c612b-aae1-468a-8a53-27434f803003",
+      "BreweryName": "Tilquin",
+      "BeerName": "Mûre Rullquin",
+      "ABV": 0.0,
+      "StyleName": "6% Sour Stout (blend of Rulles Brune and Lambic) with blackberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "67394bd4-a102-4ebc-bbff-c5b02c427dc5",
+      "BreweryName": "Tilquin",
+      "BeerName": "Experimental Fruit Series #2 - Airelle Sauvage Tilquin - Draft Version",
+      "ABV": 0.0,
+      "StyleName": "5% Fruited Lambic with wild lingonberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9bb3e262-ef99-4648-bbca-8f91703a3896",
+      "BreweryName": "Tilquin",
+      "BeerName": "Experimental Fruit Series #2 - Argousier Tilquin - Draft Version",
+      "ABV": 0.0,
+      "StyleName": "5% Fruited Lambic with sea buckthorn",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7962f536-9ebe-4484-bee5-52d1cde4a6fb",
+      "BreweryName": "Tilquin",
+      "BeerName": "Experimental Fruit Series #2 - Pinot Gris Tilquin - Draft Version",
+      "ABV": 0.0,
+      "StyleName": "7% Fruited Lambic with Pinot Gris grapes",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "eb12d9d8-8bbd-4d6e-bc4c-2f2f6b79d85c",
+      "BreweryName": "Tilquin",
+      "BeerName": "Experimental Fruit Series #2 - Sureau Tilquin - Draft Version",
+      "ABV": 0.0,
+      "StyleName": "5% Fruited Lambic with elderberries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "30ab5692-43dd-41a7-b3b7-3ef4548a8229",
+      "BreweryName": "To Øl Cph",
+      "BeerName": "Stout Of Silence",
+      "ABV": 0.0,
+      "StyleName": "10.1% Imperial Stout with vanilla, coconut and salt",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "58482038-31d1-4c3e-a773-9f74c3532711",
+      "BreweryName": "To Øl Cph",
+      "BeerName": "Lost All Reason",
+      "ABV": 0.0,
+      "StyleName": "8% Columbus, Cyro Sabro and El Doarado DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d6764681-ab84-4fb6-9431-1c3c3af0a3a4",
+      "BreweryName": "To Øl Cph",
+      "BeerName": "1 Ton Of... Cherry",
+      "ABV": 0.0,
+      "StyleName": "8.5% Sour Mashed Ale Brewed With 1 Ton Of Cherries (per 1000 litres)",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "d845497d-b251-4783-bb90-392eabc210f8",
+      "BreweryName": "To Øl Cph",
+      "BeerName": "Mr Brown",
+      "ABV": 0.0,
+      "StyleName": "9% Imperial salty caramel cookie dough, double coffee fudge, chocolate milk, hazelnut butter, vanilla cocoa crumble Brown Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a4861359-449a-4742-8a58-4b7019966e9b",
+      "BreweryName": "To Øl Cph",
+      "BeerName": "Dangerously Close To Stupid",
+      "ABV": 0.0,
+      "StyleName": "9.3% Citra and Centennial Imperial IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "603d9803-7944-439a-bef1-04b9752efade",
+      "BreweryName": "To Øl Cph",
+      "BeerName": "Jule Maelk Islay Edition",
+      "ABV": 0.0,
+      "StyleName": "15.3% Milk Stout matured in Islay soaked oak chips",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1df6b191-ad33-4dbd-bb10-3f380e8485fa",
+      "BreweryName": "Track",
+      "BeerName": "Lipari",
+      "ABV": 0.0,
+      "StyleName": "5.7% Lemon Sour",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "778642e7-b136-40ca-b057-f927d42f1512",
+      "BreweryName": "Track",
+      "BeerName": "Do It Sideways",
+      "ABV": 0.0,
+      "StyleName": "7% IPA with Mosaic and Columbus",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3d3fd6bb-8564-485e-b69e-41a593da8a40",
+      "BreweryName": "Track",
+      "BeerName": "MLN (w/ North and Wylam)",
+      "ABV": 0.0,
+      "StyleName": "8.5% DIPA with Citra, Sabro and Galaxy",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "10e29267-af90-4d5a-aff2-829e3a497207",
+      "BreweryName": "Track",
+      "BeerName": "The Edge Of Time",
+      "ABV": 0.0,
+      "StyleName": "8.5% DIPA with Citra, Sabro, Idaho 7 and Columbus",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3a175892-d090-4ae8-865b-30cdedfc1a8e",
+      "BreweryName": "Track",
+      "BeerName": "Uzon",
+      "ABV": 0.0,
+      "StyleName": "10% Triple Fruited Imperial Gose with guava, passion fruit, mango and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "26fb7a87-d237-48cd-8670-f8c5e5cd758d",
+      "BreweryName": "Track",
+      "BeerName": "Language Barrier",
+      "ABV": 0.0,
+      "StyleName": "",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5417c658-be29-48f4-8e68-2480f16b5ccd",
+      "BreweryName": "Trillium",
+      "BeerName": "DDH Mosaic Fort Point Pale Ale",
+      "ABV": 0.0,
+      "StyleName": "6.6% Double Dry Hopped Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7ea3bdc7-a34d-453c-a7c9-517feebcd1d4",
+      "BreweryName": "Trillium",
+      "BeerName": "Galaxy Fort Point Pale Ale",
+      "ABV": 0.0,
+      "StyleName": "6.6% Pale Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fe9c5032-2270-4e60-a2b8-36d1f8651793",
+      "BreweryName": "Trillium",
+      "BeerName": "DDH Melcher Street",
+      "ABV": 0.0,
+      "StyleName": "7.2% Double Dry Hopped IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2e562dd5-d39e-463b-b761-aadef53956f1",
+      "BreweryName": "Trillium",
+      "BeerName": "Galaxy True New Englander",
+      "ABV": 0.0,
+      "StyleName": "8.1% DIPA with Galaxy and Sabro",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ff56ac2b-bb6b-4d87-aa81-88ef1bc8c51b",
+      "BreweryName": "Trillium",
+      "BeerName": "DDH Vicinity",
+      "ABV": 0.0,
+      "StyleName": "8% Double Dry Hopped DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9b690af3-d1ac-4e33-8d96-ec97aac76d3b",
+      "BreweryName": "Trillium",
+      "BeerName": "Plane Over Car Over Train Over Boat",
+      "ABV": 0.0,
+      "StyleName": "13% QIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2f47b9a5-0727-4c7a-a894-03901458e4bc",
+      "BreweryName": "Trillium",
+      "BeerName": "BA Adjunction Junction (w/ Cloudwater, Monkish, Other Half and The Veil)",
+      "ABV": 0.0,
+      "StyleName": "14% bourbon barrel-aged Imperial Stout with coffee, almond, vanilla, coconut, pecan and macadamia",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "5160566d-0251-4551-a0ed-fba92a15aedb",
+      "BreweryName": "Trillium",
+      "BeerName": "Threads (w/ Cloudwater, Monkish, Other Half and The Veil)",
+      "ABV": 0.0,
+      "StyleName": "15.2% barrel-aged Stock Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "fa5aafc0-2384-4636-9ea7-ac5da7945521",
+      "BreweryName": "Trillium",
+      "BeerName": "Threads: Vanilla (w/ Cloudwater, Monkish, Other Half and The Veil)",
+      "ABV": 0.0,
+      "StyleName": "15.2% barrel-aged Stock Ale conditioned on whole vanilla beans",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "a8cb190e-a8fe-4fa5-b1f8-ed3e331b36e4",
+      "BreweryName": "Trillium",
+      "BeerName": "Threads: Almond (w/ Cloudwater, Monkish, Other Half and The Veil)",
+      "ABV": 0.0,
+      "StyleName": "15.2% barrel-aged Stock Ale conditioned on almonds",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8867174f-d24d-49e6-b050-b5b25a6b0b11",
+      "BreweryName": "Trillium",
+      "BeerName": "Threads: Coconut (w/ Cloudwater, Monkish, Other Half and The Veil)",
+      "ABV": 0.0,
+      "StyleName": "15.2% barrel-aged Stock Ale conditioned on toasted coconut",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "63f6140e-ca26-412a-9008-117ce73833e8",
+      "BreweryName": "Trve",
+      "BeerName": "Cold",
+      "ABV": 0.0,
+      "StyleName": "4.9% Crisp, Bohemian-style Kellerpils",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c3a13630-bbd7-4dde-8e68-76c93da09bb8",
+      "BreweryName": "Trve",
+      "BeerName": "Bergelmir",
+      "ABV": 0.0,
+      "StyleName": "5.5% Rustic ale brewed with water steeped with juniper branches and berries, fermented with the TRVE Norwegian Kveik strain of yeast",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "3f686d90-ae25-4896-8bce-209472a96e5d",
+      "BreweryName": "Trve",
+      "BeerName": "Halfway There (w/ Threes)",
+      "ABV": 0.0,
+      "StyleName": "5.1% Mixed culture ale dry-hopped with Mandarina Bavaria",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "743e05f5-4680-4751-b454-975d2f06a28d",
+      "BreweryName": "Trve",
+      "BeerName": "Wavering Radiant",
+      "ABV": 0.0,
+      "StyleName": "4.5% One year old, non-traditional spontaneous ale packaged from a single barrel after spending a year in wood, and bottle conditioned for 2 years",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bd155f8d-18c7-45a1-b6e1-3ec6517d190c",
+      "BreweryName": "Trve",
+      "BeerName": "World's Blood",
+      "ABV": 0.0,
+      "StyleName": "5.7% Golden Ale fermented in oak with spontaneous microbes",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "da8ffaa7-275b-4803-bdb6-38cf6980bf9c",
+      "BreweryName": "Trve",
+      "BeerName": "Mediation Is the Practice of Death",
+      "ABV": 0.0,
+      "StyleName": "7.7% Young Spontaneous Ale Aged on Colorado Tart Cherries for 6 months in wine barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "34fc863a-183f-412f-be76-791407ba767a",
+      "BreweryName": "Trve",
+      "BeerName": "On the Mountain at Dawn",
+      "ABV": 0.0,
+      "StyleName": "6.3% Young, still, spontaneously fermented beer aged on Colorado sweet cherries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4997799d-b811-400a-9e37-264d5d48ec30",
+      "BreweryName": "The Veil",
+      "BeerName": "Never Never Forever Forever",
+      "ABV": 0.0,
+      "StyleName": "5.1% Double Passionfruit Gose Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4e1ce2d9-73d7-4b33-b350-e83797cc3382",
+      "BreweryName": "The Veil",
+      "BeerName": "Never Never Goaway Goaway",
+      "ABV": 0.0,
+      "StyleName": "5.1% Double Acai, Blackberry and Passionfruit Gose Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "52067188-3105-4042-8648-5dea81e54912",
+      "BreweryName": "The Veil",
+      "BeerName": "Winter Sauce Tastee",
+      "ABV": 0.0,
+      "StyleName": "5.5% Smoothie Style Sour Ale with boysenberry, cranberry, blackcurrant, cinnamon and milk sugar",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6af00b6f-e09c-4800-8f42-a27957bb9199",
+      "BreweryName": "The Veil",
+      "BeerName": "Apri-Guav Tastee",
+      "ABV": 0.0,
+      "StyleName": "5.5% Smoothie Style Sour Ale with milk sugar and lots of apricot and guava purée",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "41bba1f6-4321-479b-8d00-e29c62fd0837",
+      "BreweryName": "The Veil",
+      "BeerName": "Master Shredder",
+      "ABV": 0.0,
+      "StyleName": "5.5% Mosaic IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "65df177f-e13a-4b13-a263-07cc705fc28b",
+      "BreweryName": "The Veil",
+      "BeerName": "Caskets",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA with Idaho 7 and Citra",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "b5d91078-d9ca-4f41-bf76-fffb1a7e2a19",
+      "BreweryName": "The Veil",
+      "BeerName": "Space Toof (w/ Other Half)",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA with Simcoe, Galaxy and Mosaic",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ed14319b-742b-46ce-bb14-3f6ad7f44d4f",
+      "BreweryName": "The Veil",
+      "BeerName": "Buggie Nuggie (w/ Monkish)",
+      "ABV": 0.0,
+      "StyleName": "8% West Coast DIPA with Citra, Simcoe, Mosaic and Enigma",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "c2ebe03a-3b56-4784-a2a2-4dd601153deb",
+      "BreweryName": "The Veil",
+      "BeerName": "Chubbles Chubbles (w/ Cloudwater)",
+      "ABV": 0.0,
+      "StyleName": "10.9% DDH TIPA with Citra, El Dorado and Galaxy",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ac1a5466-8a8a-4e59-8cf7-26b196f29409",
+      "BreweryName": "The Veil",
+      "BeerName": "Stay Hydrate",
+      "ABV": 0.0,
+      "StyleName": "6% IPA with Citra, Galaxy, Wakatu and Motueka",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ec6eb296-b408-41a3-8403-a2ad5ac76c87",
+      "BreweryName": "The Veil",
+      "BeerName": "Destroy Who You Are",
+      "ABV": 0.0,
+      "StyleName": "11% TIPA with Citra, Idaho 7, Sabro and Galaxy",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "4314e807-2ede-44f9-8976-c663cddcb61d",
+      "BreweryName": "The Veil",
+      "BeerName": "Tefnut Sangria (w/ Omnipollo)",
+      "ABV": 0.0,
+      "StyleName": "11% Imperial Gose Ale with Cabernet Sauvignon grapes, Merlot grapes, blueberries, strawberries and apples",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cbc19696-b49e-4621-8d66-58ac0e1a4a62",
+      "BreweryName": "The Veil",
+      "BeerName": "Maple Sleeping Forever",
+      "ABV": 0.0,
+      "StyleName": "13% Imperial Stout aged in maple syrup barrels",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "1c4b00db-c23a-491f-b52b-ed1ae2366857",
+      "BreweryName": "The Veil",
+      "BeerName": "Starve: Exhibit C",
+      "ABV": 0.0,
+      "StyleName": "13.1% blend of 15-month-old Willett barrel-aged Pallbearer Imperial Stout, 15-month-old Willett barrel-aged Circle of Wolves English Barley Wine, and 15-month-old Willett barrel-aged Sleeping Forever Imperial Stout, conditioned before packaging with whole coffee beans, Ugandan vanilla and maple syrup",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f38697be-0386-46b8-aef2-6c8d70b3e302",
+      "BreweryName": "Verdant",
+      "BeerName": "Random Rules",
+      "ABV": 0.0,
+      "StyleName": "6.5% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9f494b0e-4faf-4b7f-a236-757038533db6",
+      "BreweryName": "Verdant",
+      "BeerName": "Fruit Car Sight Exhibition",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dd175fc1-5626-4f61-9bd1-b162c1bd6002",
+      "BreweryName": "Verdant",
+      "BeerName": "Pigs All Day West Coast",
+      "ABV": 0.0,
+      "StyleName": "6% IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ee1d8c01-f3bf-4bc5-b3fd-9b6284686bd7",
+      "BreweryName": "Verdant",
+      "BeerName": "Putty",
+      "ABV": 0.0,
+      "StyleName": "8% DIPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dc53781d-0078-4f07-a6c9-ef61264c83a5",
+      "BreweryName": "Whitefrontier",
+      "BeerName": "Nitro Stout",
+      "ABV": 0.0,
+      "StyleName": "5% Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "dd1540d5-330d-4b07-be3a-44e82cb12501",
+      "BreweryName": "Whitefrontier",
+      "BeerName": "Russian Imperial Stout",
+      "ABV": 0.0,
+      "StyleName": "12% Russian Imperial Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "85a8dfe6-d906-4ebb-a44d-83fa439aec47",
+      "BreweryName": "Whitefrontier",
+      "BeerName": "Berry Berry (w/ North and Gipsy Hill)",
+      "ABV": 0.0,
+      "StyleName": "7% Raspberry, blackberry and blueberry Kettle Sour",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "af24a90b-0f5c-47ed-8022-431c4ebfd8a4",
+      "BreweryName": "Whitefrontier",
+      "BeerName": "Moroccan Gose",
+      "ABV": 0.0,
+      "StyleName": "5% Kettle sour with mango puree and Marrakesh sea salt",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "7a84a1ca-f015-4776-943e-8fbfd8b67cf9",
+      "BreweryName": "Whitefrontier",
+      "BeerName": "Double Decade (w/ Flying Couch)",
+      "ABV": 0.0,
+      "StyleName": "7.9% DIPA fermented with Hornindal kveik yeast",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "bc4f5cd0-615f-4e0c-b585-f83f3f9a7851",
+      "BreweryName": "White Hag",
+      "BeerName": "Beann Gulban",
+      "ABV": 0.0,
+      "StyleName": "6.9% Barrel aged Heather Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "cdced89d-e036-45ef-8142-4b1a30078d14",
+      "BreweryName": "White Hag",
+      "BeerName": "Little Olcan",
+      "ABV": 0.0,
+      "StyleName": "4.2% Brett Session IPA with Mosaic and El Dorado",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "327e6afd-93fb-4710-8c28-f83d2c272464",
+      "BreweryName": "White Hag",
+      "BeerName": "The White Sow Mint",
+      "ABV": 0.0,
+      "StyleName": "5.2% Mint Chocolate Chip Oatmeal Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "373bbbee-4476-4191-9578-295f1b69fb83",
+      "BreweryName": "White Hag",
+      "BeerName": "Puca Apricot",
+      "ABV": 0.0,
+      "StyleName": "3.5% Dry Hopped Lemon Sour with Apricot",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "ea733fc9-97e0-4b45-9563-6e370e038d9c",
+      "BreweryName": "White Hag",
+      "BeerName": "Dark Druid",
+      "ABV": 0.0,
+      "StyleName": "5.5% Salted Caramel Stout",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2463915c-da28-4160-9f1b-8a234aeb1478",
+      "BreweryName": "White Hag",
+      "BeerName": "No.40 (w/ Brew by Numbers)",
+      "ABV": 0.0,
+      "StyleName": "13% Barrel Aged Rye Wine",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "726b7e5d-a87a-45a0-8128-fc20b7348965",
+      "BreweryName": "Wylam",
+      "BeerName": "WxY5 (w/ Yeastie Boys)",
+      "ABV": 0.0,
+      "StyleName": "7% Southern Hemisphere IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "90312f99-dc2f-41fa-b0c8-5f108df0e50a",
+      "BreweryName": "Wylam",
+      "BeerName": "A Never Ending Series Of Question Marks (w/ De Molen)",
+      "ABV": 0.0,
+      "StyleName": "7.5% Citra and Galaxy IPA",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "2b34caaa-9cf0-4a9a-9ad4-f2b87df71ae0",
+      "BreweryName": "Wylam",
+      "BeerName": "Imperial Macchiato",
+      "ABV": 0.0,
+      "StyleName": "10% Double Hazelnut Praline Coffee Porter",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "9636926f-a120-4d99-a6ff-b7475fb51f52",
+      "BreweryName": "Wylam",
+      "BeerName": "Oak Aged English Quad (w/ Smedsbo Slott)",
+      "ABV": 0.0,
+      "StyleName": "11.5% Oak Aged Quad",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "e956517c-8bbe-4000-bf74-06dfe2eb768a",
+      "BreweryName": "Wylam",
+      "BeerName": "Summon Up The Blood (w/ Old Chimneys)",
+      "ABV": 0.0,
+      "StyleName": "13.5% Imperial Stout with coconut and vanilla",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "33d00857-6d87-4a44-8473-db46b7cae491",
+      "BreweryName": "Young Master",
+      "BeerName": "Hak Mo Sheung Ancho y Panca",
+      "ABV": 0.0,
+      "StyleName": "9.5% Imperial Chilli Stout aged in Bourbon barrels with Ancho and Panca chillies",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "8d35bd56-5f33-48b6-89e0-f1c24ca54ca7",
+      "BreweryName": "Young Master",
+      "BeerName": "Bak Mo Sheung Vanilla Chocolate",
+      "ABV": 0.0,
+      "StyleName": "9.5% Imperial Chocolate White Stout barrel aged in Woodford Reserve Bourbon barrels with coffee beans and cacao nibs",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "6efa01b2-3c34-4e98-b461-b4cb64c500c5",
+      "BreweryName": "Young Master",
+      "BeerName": "Fake Citra Juice",
+      "ABV": 0.0,
+      "StyleName": "6% New England IPA brewed with hand selected hops from Yakima",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "38197999-b8f5-4a94-8517-18b8eefd8dc5",
+      "BreweryName": "Young Master",
+      "BeerName": "Red Hare",
+      "ABV": 0.0,
+      "StyleName": "4% Berliner Weisse aged with fresh raspberries, Hong Kong coffee beans and Valrhona Cacao Nibs",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "f2085feb-ad75-4f56-bf7d-ccbbf74a2330",
+      "BreweryName": "Young Master",
+      "BeerName": "Days of Being Wild Cherry",
+      "ABV": 0.0,
+      "StyleName": "7.7% Barrel Aged Wild Ale with tart cherries",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    },
+    {
+      "Id": "135aa106-cb34-43b5-a765-4f94ec5da346",
+      "BreweryName": "Young Master",
+      "BeerName": "PLZ B KND (w/Yeastie Boys)",
+      "ABV": 0.0,
+      "StyleName": "7.3% rustic Farmhouse Ale",
+      "SessionName": "Yellow",
+      "SessionNumber": 1
+    }
+  ]
+}

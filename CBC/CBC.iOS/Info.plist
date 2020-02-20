@@ -27,15 +27,6 @@
 	<string>in.brock.cbc</string>
 	<key>CFBundleVersion</key>
 	<string>5.0.1</string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>Icon@2x.png</string>
-		<string>Icon.png</string>
-		<string>Icon-60@2x.png</string>
-		<string>Icon-Small@2x.png</string>
-		<string>Icon-Small.png</string>
-		<string>Icon-Small-40@2x.png</string>
-	</array>
 	<key>CFBundleShortVersionString</key>
 	<string>5.0.1</string>
 	<key>UIPrerenderedIcon</key>
@@ -89,5 +80,13 @@
 			<string>{320, 480}</string>
 		</dict>
 	</array>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleName</key>
+	<string>FFB</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+<key>UIUserInterfaceStyle</key>
+<string>Light</string>
 </dict>
 </plist>

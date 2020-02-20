@@ -46,7 +46,7 @@ namespace CBC
             }
         }
 
-        public String ABVAndStyle { get { return String.Format("{0:0.0}% {1}", ABV, StyleName); } }
+        public String ABVAndStyle { get { return ABV != 0 ? String.Format("{0:0.0}% {1}", ABV, StyleName) : StyleName; } }
 
         public CbcSession Session { get { return (CbcSession)Enum.Parse(typeof(CbcSession), SessionName); } }
 

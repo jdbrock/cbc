@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:controls="clr-namespace:Xamarin.Forms.Labs.Controls;assembly=XLabs.Forms"
              xmlns:this="clr-namespace:CBC;assembly=CBC"
              xmlns:sfr="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
              x:Class="CBC.BeerPage" Padding="0,21,0,0">

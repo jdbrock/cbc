@@ -12,7 +12,7 @@
             </x:Arguments>
         </NavigationPage>
 
-        <NavigationPage x:Name="YellowNavigationPage" Title="Yellow" Icon="middle_finger-25.png">
+        <!--<NavigationPage x:Name="YellowNavigationPage" Title="Yellow" Icon="middle_finger-25.png">
             <x:Arguments>
                 <local:BeerPage x:Name="YellowBeerPage" BindingContext="{Binding YellowViewModel}" Title="Yellow Session"  />
             </x:Arguments>
@@ -34,7 +34,7 @@
             <x:Arguments>
                 <local:BeerPage x:Name="GreenBeerPage" BindingContext="{Binding GreenViewModel}" Title="Green Session" />
             </x:Arguments>
-        </NavigationPage>
+        </NavigationPage>-->
 
         <!--<NavigationPage x:Name="MapNavigationPage" Title="Map" Icon="treasure_map-25.png">
             <x:Arguments>

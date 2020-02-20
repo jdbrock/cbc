@@ -24,11 +24,11 @@ namespace CBC
         // ===========================================================================
 
 
-		private const String CBC_INITIAL_INTERNAL_DATA_FILENAME = "cbc-preload-data.json";
-		private const String CBC_CURRENT_DATA_FILENAME = "cbc-5.0.0-data.json";
-		private const String CBC_CURRENT_METADATA_FILENAME = "cbc-5.0.0-metadata.json";
+		private const String CBC_INITIAL_INTERNAL_DATA_FILENAME = "ffb-2020-preload-data.json";
+		private const String CBC_CURRENT_DATA_FILENAME = "ffb-2020-data.json";
+		private const String CBC_CURRENT_METADATA_FILENAME = "ffb-2020-metadata.json";
 
-        private const String CBC_MAIN_DATA_URI = "https://cbc2016.blob.core.windows.net/data-prod/beer-5.0.0-store.json";
+        private const String CBC_MAIN_DATA_URI = "https://byo.blob.core.windows.net/data-dev/ffb-2020.json";
 
         // ===========================================================================
         // = Public Properties
